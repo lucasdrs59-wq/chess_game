@@ -1,0 +1,1602 @@
+[
+  {
+    "id": "tp-001",
+    "type": "tactic",
+    "tags": [
+      "fork",
+      "double-attack"
+    ],
+    "difficulty": 700,
+    "fen": "6k1/5ppp/8/8/8/5Q2/6PP/6K1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Qxf7+",
+      "Kxf7",
+      "Nd6+"
+    ],
+    "explanation": "Force le roi adverse à se découvrir puis gagne du matériel."
+  },
+  {
+    "id": "tp-002",
+    "type": "mate",
+    "tags": [
+      "pin",
+      "discovered-attack"
+    ],
+    "difficulty": 717,
+    "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/3P4/5N2/PPP1PPPP/RNBQKB1R b KQkq - 1 3",
+    "solutionMovesSAN": [
+      "Qh8+",
+      "Kxh8",
+      "Nxf7+"
+    ],
+    "explanation": "Déviation du roi suivie d'une fourchette de cavalier."
+  },
+  {
+    "id": "tp-003",
+    "type": "endgame",
+    "tags": [
+      "deflection",
+      "sacrifice"
+    ],
+    "difficulty": 734,
+    "fen": "r3k2r/ppp2ppp/2n5/3pp3/3PP3/2P2N2/PP3PPP/R3K2R w KQkq - 0 10",
+    "solutionMovesSAN": [
+      "Bxd5",
+      "Qxd5",
+      "Nxd5"
+    ],
+    "explanation": "Échange simplificateur qui gagne un pion central."
+  },
+  {
+    "id": "tp-004",
+    "type": "strategy",
+    "tags": [
+      "back-rank",
+      "mate-net"
+    ],
+    "difficulty": 751,
+    "fen": "2r3k1/5ppp/2n5/8/8/2N2Q2/5PPP/6K1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Qxf7+",
+      "Rxf7",
+      "Nxd5"
+    ],
+    "explanation": "Sacrifice de qualité pour récupérer avec initiative."
+  },
+  {
+    "id": "tp-005",
+    "type": "tactic",
+    "tags": [
+      "endgame",
+      "king-activity"
+    ],
+    "difficulty": 768,
+    "fen": "r1b1k2r/pppp1ppp/2n2n2/4p3/2B1P3/2NP1N2/PPP2PPP/R1BQ1RK1 w kq - 4 7",
+    "solutionMovesSAN": [
+      "Qh7+",
+      "Kxh7",
+      "Rh3+"
+    ],
+    "explanation": "Motif classique du mat du couloir sur la colonne h."
+  },
+  {
+    "id": "tp-006",
+    "type": "mate",
+    "tags": [
+      "clearance",
+      "intermezzo"
+    ],
+    "difficulty": 785,
+    "fen": "6k1/5pp1/8/8/8/3Q4/6PP/6K1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Nxd5",
+      "Qxd5",
+      "Bxd5"
+    ],
+    "explanation": "Suppression du défenseur puis récupération immédiate."
+  },
+  {
+    "id": "tp-007",
+    "type": "endgame",
+    "tags": [
+      "opening",
+      "development"
+    ],
+    "difficulty": 802,
+    "fen": "rnbq1rk1/pppp1ppp/5n2/4p3/2B1P3/3P1N2/PPP2PPP/RNBQ1RK1 b - - 4 5",
+    "solutionMovesSAN": [
+      "Qh5",
+      "g6",
+      "Qh6"
+    ],
+    "explanation": "Création de menaces de mat et fixation des faiblesses."
+  },
+  {
+    "id": "tp-008",
+    "type": "strategy",
+    "tags": [
+      "weak-square",
+      "positional"
+    ],
+    "difficulty": 819,
+    "fen": "2r2rk1/pp3ppp/2n5/3q4/3P4/2N1Q3/PP3PPP/2R2RK1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Qxf7+",
+      "Kxf7",
+      "Nxe5+"
+    ],
+    "explanation": "Check intermédiaire pour gagner le centre."
+  },
+  {
+    "id": "tp-009",
+    "type": "tactic",
+    "tags": [
+      "exchange-sacrifice",
+      "initiative"
+    ],
+    "difficulty": 836,
+    "fen": "5rk1/pp3ppp/2n5/3Q4/3P4/2N5/PP3PPP/6K1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Bxf7+",
+      "Rxf7",
+      "Qxd8+"
+    ],
+    "explanation": "Enchaînement tactique avec gain de dame."
+  },
+  {
+    "id": "tp-010",
+    "type": "mate",
+    "tags": [
+      "skewer",
+      "winning-material"
+    ],
+    "difficulty": 853,
+    "fen": "r4rk1/pp3ppp/2n5/3q4/3P4/2N1Q3/PP3PPP/R4RK1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Qxd5",
+      "exd5",
+      "Rxe8"
+    ],
+    "explanation": "Simplification favorable menant à une finale gagnante."
+  },
+  {
+    "id": "tp-011",
+    "type": "endgame",
+    "tags": [
+      "fork",
+      "double-attack"
+    ],
+    "difficulty": 870,
+    "fen": "6k1/5ppp/8/8/8/5Q2/6PP/6K1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Qxf7+",
+      "Kxf7",
+      "Nd6+"
+    ],
+    "explanation": "Force le roi adverse à se découvrir puis gagne du matériel."
+  },
+  {
+    "id": "tp-012",
+    "type": "strategy",
+    "tags": [
+      "pin",
+      "discovered-attack"
+    ],
+    "difficulty": 887,
+    "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/3P4/5N2/PPP1PPPP/RNBQKB1R b KQkq - 1 3",
+    "solutionMovesSAN": [
+      "Qh8+",
+      "Kxh8",
+      "Nxf7+"
+    ],
+    "explanation": "Déviation du roi suivie d'une fourchette de cavalier."
+  },
+  {
+    "id": "tp-013",
+    "type": "tactic",
+    "tags": [
+      "deflection",
+      "sacrifice"
+    ],
+    "difficulty": 904,
+    "fen": "r3k2r/ppp2ppp/2n5/3pp3/3PP3/2P2N2/PP3PPP/R3K2R w KQkq - 0 10",
+    "solutionMovesSAN": [
+      "Bxd5",
+      "Qxd5",
+      "Nxd5"
+    ],
+    "explanation": "Échange simplificateur qui gagne un pion central."
+  },
+  {
+    "id": "tp-014",
+    "type": "mate",
+    "tags": [
+      "back-rank",
+      "mate-net"
+    ],
+    "difficulty": 921,
+    "fen": "2r3k1/5ppp/2n5/8/8/2N2Q2/5PPP/6K1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Qxf7+",
+      "Rxf7",
+      "Nxd5"
+    ],
+    "explanation": "Sacrifice de qualité pour récupérer avec initiative."
+  },
+  {
+    "id": "tp-015",
+    "type": "endgame",
+    "tags": [
+      "endgame",
+      "king-activity"
+    ],
+    "difficulty": 938,
+    "fen": "r1b1k2r/pppp1ppp/2n2n2/4p3/2B1P3/2NP1N2/PPP2PPP/R1BQ1RK1 w kq - 4 7",
+    "solutionMovesSAN": [
+      "Qh7+",
+      "Kxh7",
+      "Rh3+"
+    ],
+    "explanation": "Motif classique du mat du couloir sur la colonne h."
+  },
+  {
+    "id": "tp-016",
+    "type": "strategy",
+    "tags": [
+      "clearance",
+      "intermezzo"
+    ],
+    "difficulty": 955,
+    "fen": "6k1/5pp1/8/8/8/3Q4/6PP/6K1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Nxd5",
+      "Qxd5",
+      "Bxd5"
+    ],
+    "explanation": "Suppression du défenseur puis récupération immédiate."
+  },
+  {
+    "id": "tp-017",
+    "type": "tactic",
+    "tags": [
+      "opening",
+      "development"
+    ],
+    "difficulty": 972,
+    "fen": "rnbq1rk1/pppp1ppp/5n2/4p3/2B1P3/3P1N2/PPP2PPP/RNBQ1RK1 b - - 4 5",
+    "solutionMovesSAN": [
+      "Qh5",
+      "g6",
+      "Qh6"
+    ],
+    "explanation": "Création de menaces de mat et fixation des faiblesses."
+  },
+  {
+    "id": "tp-018",
+    "type": "mate",
+    "tags": [
+      "weak-square",
+      "positional"
+    ],
+    "difficulty": 989,
+    "fen": "2r2rk1/pp3ppp/2n5/3q4/3P4/2N1Q3/PP3PPP/2R2RK1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Qxf7+",
+      "Kxf7",
+      "Nxe5+"
+    ],
+    "explanation": "Check intermédiaire pour gagner le centre."
+  },
+  {
+    "id": "tp-019",
+    "type": "endgame",
+    "tags": [
+      "exchange-sacrifice",
+      "initiative"
+    ],
+    "difficulty": 1006,
+    "fen": "5rk1/pp3ppp/2n5/3Q4/3P4/2N5/PP3PPP/6K1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Bxf7+",
+      "Rxf7",
+      "Qxd8+"
+    ],
+    "explanation": "Enchaînement tactique avec gain de dame."
+  },
+  {
+    "id": "tp-020",
+    "type": "strategy",
+    "tags": [
+      "skewer",
+      "winning-material"
+    ],
+    "difficulty": 1023,
+    "fen": "r4rk1/pp3ppp/2n5/3q4/3P4/2N1Q3/PP3PPP/R4RK1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Qxd5",
+      "exd5",
+      "Rxe8"
+    ],
+    "explanation": "Simplification favorable menant à une finale gagnante."
+  },
+  {
+    "id": "tp-021",
+    "type": "tactic",
+    "tags": [
+      "fork",
+      "double-attack"
+    ],
+    "difficulty": 1040,
+    "fen": "6k1/5ppp/8/8/8/5Q2/6PP/6K1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Qxf7+",
+      "Kxf7",
+      "Nd6+"
+    ],
+    "explanation": "Force le roi adverse à se découvrir puis gagne du matériel."
+  },
+  {
+    "id": "tp-022",
+    "type": "mate",
+    "tags": [
+      "pin",
+      "discovered-attack"
+    ],
+    "difficulty": 1057,
+    "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/3P4/5N2/PPP1PPPP/RNBQKB1R b KQkq - 1 3",
+    "solutionMovesSAN": [
+      "Qh8+",
+      "Kxh8",
+      "Nxf7+"
+    ],
+    "explanation": "Déviation du roi suivie d'une fourchette de cavalier."
+  },
+  {
+    "id": "tp-023",
+    "type": "endgame",
+    "tags": [
+      "deflection",
+      "sacrifice"
+    ],
+    "difficulty": 1074,
+    "fen": "r3k2r/ppp2ppp/2n5/3pp3/3PP3/2P2N2/PP3PPP/R3K2R w KQkq - 0 10",
+    "solutionMovesSAN": [
+      "Bxd5",
+      "Qxd5",
+      "Nxd5"
+    ],
+    "explanation": "Échange simplificateur qui gagne un pion central."
+  },
+  {
+    "id": "tp-024",
+    "type": "strategy",
+    "tags": [
+      "back-rank",
+      "mate-net"
+    ],
+    "difficulty": 1091,
+    "fen": "2r3k1/5ppp/2n5/8/8/2N2Q2/5PPP/6K1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Qxf7+",
+      "Rxf7",
+      "Nxd5"
+    ],
+    "explanation": "Sacrifice de qualité pour récupérer avec initiative."
+  },
+  {
+    "id": "tp-025",
+    "type": "tactic",
+    "tags": [
+      "endgame",
+      "king-activity"
+    ],
+    "difficulty": 1108,
+    "fen": "r1b1k2r/pppp1ppp/2n2n2/4p3/2B1P3/2NP1N2/PPP2PPP/R1BQ1RK1 w kq - 4 7",
+    "solutionMovesSAN": [
+      "Qh7+",
+      "Kxh7",
+      "Rh3+"
+    ],
+    "explanation": "Motif classique du mat du couloir sur la colonne h."
+  },
+  {
+    "id": "tp-026",
+    "type": "mate",
+    "tags": [
+      "clearance",
+      "intermezzo"
+    ],
+    "difficulty": 1125,
+    "fen": "6k1/5pp1/8/8/8/3Q4/6PP/6K1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Nxd5",
+      "Qxd5",
+      "Bxd5"
+    ],
+    "explanation": "Suppression du défenseur puis récupération immédiate."
+  },
+  {
+    "id": "tp-027",
+    "type": "endgame",
+    "tags": [
+      "opening",
+      "development"
+    ],
+    "difficulty": 1142,
+    "fen": "rnbq1rk1/pppp1ppp/5n2/4p3/2B1P3/3P1N2/PPP2PPP/RNBQ1RK1 b - - 4 5",
+    "solutionMovesSAN": [
+      "Qh5",
+      "g6",
+      "Qh6"
+    ],
+    "explanation": "Création de menaces de mat et fixation des faiblesses."
+  },
+  {
+    "id": "tp-028",
+    "type": "strategy",
+    "tags": [
+      "weak-square",
+      "positional"
+    ],
+    "difficulty": 1159,
+    "fen": "2r2rk1/pp3ppp/2n5/3q4/3P4/2N1Q3/PP3PPP/2R2RK1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Qxf7+",
+      "Kxf7",
+      "Nxe5+"
+    ],
+    "explanation": "Check intermédiaire pour gagner le centre."
+  },
+  {
+    "id": "tp-029",
+    "type": "tactic",
+    "tags": [
+      "exchange-sacrifice",
+      "initiative"
+    ],
+    "difficulty": 1176,
+    "fen": "5rk1/pp3ppp/2n5/3Q4/3P4/2N5/PP3PPP/6K1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Bxf7+",
+      "Rxf7",
+      "Qxd8+"
+    ],
+    "explanation": "Enchaînement tactique avec gain de dame."
+  },
+  {
+    "id": "tp-030",
+    "type": "mate",
+    "tags": [
+      "skewer",
+      "winning-material"
+    ],
+    "difficulty": 1193,
+    "fen": "r4rk1/pp3ppp/2n5/3q4/3P4/2N1Q3/PP3PPP/R4RK1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Qxd5",
+      "exd5",
+      "Rxe8"
+    ],
+    "explanation": "Simplification favorable menant à une finale gagnante."
+  },
+  {
+    "id": "tp-031",
+    "type": "endgame",
+    "tags": [
+      "fork",
+      "double-attack"
+    ],
+    "difficulty": 1210,
+    "fen": "6k1/5ppp/8/8/8/5Q2/6PP/6K1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Qxf7+",
+      "Kxf7",
+      "Nd6+"
+    ],
+    "explanation": "Force le roi adverse à se découvrir puis gagne du matériel."
+  },
+  {
+    "id": "tp-032",
+    "type": "strategy",
+    "tags": [
+      "pin",
+      "discovered-attack"
+    ],
+    "difficulty": 1227,
+    "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/3P4/5N2/PPP1PPPP/RNBQKB1R b KQkq - 1 3",
+    "solutionMovesSAN": [
+      "Qh8+",
+      "Kxh8",
+      "Nxf7+"
+    ],
+    "explanation": "Déviation du roi suivie d'une fourchette de cavalier."
+  },
+  {
+    "id": "tp-033",
+    "type": "tactic",
+    "tags": [
+      "deflection",
+      "sacrifice"
+    ],
+    "difficulty": 1244,
+    "fen": "r3k2r/ppp2ppp/2n5/3pp3/3PP3/2P2N2/PP3PPP/R3K2R w KQkq - 0 10",
+    "solutionMovesSAN": [
+      "Bxd5",
+      "Qxd5",
+      "Nxd5"
+    ],
+    "explanation": "Échange simplificateur qui gagne un pion central."
+  },
+  {
+    "id": "tp-034",
+    "type": "mate",
+    "tags": [
+      "back-rank",
+      "mate-net"
+    ],
+    "difficulty": 1261,
+    "fen": "2r3k1/5ppp/2n5/8/8/2N2Q2/5PPP/6K1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Qxf7+",
+      "Rxf7",
+      "Nxd5"
+    ],
+    "explanation": "Sacrifice de qualité pour récupérer avec initiative."
+  },
+  {
+    "id": "tp-035",
+    "type": "endgame",
+    "tags": [
+      "endgame",
+      "king-activity"
+    ],
+    "difficulty": 1278,
+    "fen": "r1b1k2r/pppp1ppp/2n2n2/4p3/2B1P3/2NP1N2/PPP2PPP/R1BQ1RK1 w kq - 4 7",
+    "solutionMovesSAN": [
+      "Qh7+",
+      "Kxh7",
+      "Rh3+"
+    ],
+    "explanation": "Motif classique du mat du couloir sur la colonne h."
+  },
+  {
+    "id": "tp-036",
+    "type": "strategy",
+    "tags": [
+      "clearance",
+      "intermezzo"
+    ],
+    "difficulty": 1295,
+    "fen": "6k1/5pp1/8/8/8/3Q4/6PP/6K1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Nxd5",
+      "Qxd5",
+      "Bxd5"
+    ],
+    "explanation": "Suppression du défenseur puis récupération immédiate."
+  },
+  {
+    "id": "tp-037",
+    "type": "tactic",
+    "tags": [
+      "opening",
+      "development"
+    ],
+    "difficulty": 1312,
+    "fen": "rnbq1rk1/pppp1ppp/5n2/4p3/2B1P3/3P1N2/PPP2PPP/RNBQ1RK1 b - - 4 5",
+    "solutionMovesSAN": [
+      "Qh5",
+      "g6",
+      "Qh6"
+    ],
+    "explanation": "Création de menaces de mat et fixation des faiblesses."
+  },
+  {
+    "id": "tp-038",
+    "type": "mate",
+    "tags": [
+      "weak-square",
+      "positional"
+    ],
+    "difficulty": 1329,
+    "fen": "2r2rk1/pp3ppp/2n5/3q4/3P4/2N1Q3/PP3PPP/2R2RK1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Qxf7+",
+      "Kxf7",
+      "Nxe5+"
+    ],
+    "explanation": "Check intermédiaire pour gagner le centre."
+  },
+  {
+    "id": "tp-039",
+    "type": "endgame",
+    "tags": [
+      "exchange-sacrifice",
+      "initiative"
+    ],
+    "difficulty": 1346,
+    "fen": "5rk1/pp3ppp/2n5/3Q4/3P4/2N5/PP3PPP/6K1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Bxf7+",
+      "Rxf7",
+      "Qxd8+"
+    ],
+    "explanation": "Enchaînement tactique avec gain de dame."
+  },
+  {
+    "id": "tp-040",
+    "type": "strategy",
+    "tags": [
+      "skewer",
+      "winning-material"
+    ],
+    "difficulty": 1363,
+    "fen": "r4rk1/pp3ppp/2n5/3q4/3P4/2N1Q3/PP3PPP/R4RK1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Qxd5",
+      "exd5",
+      "Rxe8"
+    ],
+    "explanation": "Simplification favorable menant à une finale gagnante."
+  },
+  {
+    "id": "tp-041",
+    "type": "tactic",
+    "tags": [
+      "fork",
+      "double-attack"
+    ],
+    "difficulty": 1380,
+    "fen": "6k1/5ppp/8/8/8/5Q2/6PP/6K1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Qxf7+",
+      "Kxf7",
+      "Nd6+"
+    ],
+    "explanation": "Force le roi adverse à se découvrir puis gagne du matériel."
+  },
+  {
+    "id": "tp-042",
+    "type": "mate",
+    "tags": [
+      "pin",
+      "discovered-attack"
+    ],
+    "difficulty": 1397,
+    "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/3P4/5N2/PPP1PPPP/RNBQKB1R b KQkq - 1 3",
+    "solutionMovesSAN": [
+      "Qh8+",
+      "Kxh8",
+      "Nxf7+"
+    ],
+    "explanation": "Déviation du roi suivie d'une fourchette de cavalier."
+  },
+  {
+    "id": "tp-043",
+    "type": "endgame",
+    "tags": [
+      "deflection",
+      "sacrifice"
+    ],
+    "difficulty": 1414,
+    "fen": "r3k2r/ppp2ppp/2n5/3pp3/3PP3/2P2N2/PP3PPP/R3K2R w KQkq - 0 10",
+    "solutionMovesSAN": [
+      "Bxd5",
+      "Qxd5",
+      "Nxd5"
+    ],
+    "explanation": "Échange simplificateur qui gagne un pion central."
+  },
+  {
+    "id": "tp-044",
+    "type": "strategy",
+    "tags": [
+      "back-rank",
+      "mate-net"
+    ],
+    "difficulty": 1431,
+    "fen": "2r3k1/5ppp/2n5/8/8/2N2Q2/5PPP/6K1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Qxf7+",
+      "Rxf7",
+      "Nxd5"
+    ],
+    "explanation": "Sacrifice de qualité pour récupérer avec initiative."
+  },
+  {
+    "id": "tp-045",
+    "type": "tactic",
+    "tags": [
+      "endgame",
+      "king-activity"
+    ],
+    "difficulty": 1448,
+    "fen": "r1b1k2r/pppp1ppp/2n2n2/4p3/2B1P3/2NP1N2/PPP2PPP/R1BQ1RK1 w kq - 4 7",
+    "solutionMovesSAN": [
+      "Qh7+",
+      "Kxh7",
+      "Rh3+"
+    ],
+    "explanation": "Motif classique du mat du couloir sur la colonne h."
+  },
+  {
+    "id": "tp-046",
+    "type": "mate",
+    "tags": [
+      "clearance",
+      "intermezzo"
+    ],
+    "difficulty": 1465,
+    "fen": "6k1/5pp1/8/8/8/3Q4/6PP/6K1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Nxd5",
+      "Qxd5",
+      "Bxd5"
+    ],
+    "explanation": "Suppression du défenseur puis récupération immédiate."
+  },
+  {
+    "id": "tp-047",
+    "type": "endgame",
+    "tags": [
+      "opening",
+      "development"
+    ],
+    "difficulty": 1482,
+    "fen": "rnbq1rk1/pppp1ppp/5n2/4p3/2B1P3/3P1N2/PPP2PPP/RNBQ1RK1 b - - 4 5",
+    "solutionMovesSAN": [
+      "Qh5",
+      "g6",
+      "Qh6"
+    ],
+    "explanation": "Création de menaces de mat et fixation des faiblesses."
+  },
+  {
+    "id": "tp-048",
+    "type": "strategy",
+    "tags": [
+      "weak-square",
+      "positional"
+    ],
+    "difficulty": 1499,
+    "fen": "2r2rk1/pp3ppp/2n5/3q4/3P4/2N1Q3/PP3PPP/2R2RK1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Qxf7+",
+      "Kxf7",
+      "Nxe5+"
+    ],
+    "explanation": "Check intermédiaire pour gagner le centre."
+  },
+  {
+    "id": "tp-049",
+    "type": "tactic",
+    "tags": [
+      "exchange-sacrifice",
+      "initiative"
+    ],
+    "difficulty": 1516,
+    "fen": "5rk1/pp3ppp/2n5/3Q4/3P4/2N5/PP3PPP/6K1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Bxf7+",
+      "Rxf7",
+      "Qxd8+"
+    ],
+    "explanation": "Enchaînement tactique avec gain de dame."
+  },
+  {
+    "id": "tp-050",
+    "type": "mate",
+    "tags": [
+      "skewer",
+      "winning-material"
+    ],
+    "difficulty": 1533,
+    "fen": "r4rk1/pp3ppp/2n5/3q4/3P4/2N1Q3/PP3PPP/R4RK1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Qxd5",
+      "exd5",
+      "Rxe8"
+    ],
+    "explanation": "Simplification favorable menant à une finale gagnante."
+  },
+  {
+    "id": "tp-051",
+    "type": "endgame",
+    "tags": [
+      "fork",
+      "double-attack"
+    ],
+    "difficulty": 1550,
+    "fen": "6k1/5ppp/8/8/8/5Q2/6PP/6K1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Qxf7+",
+      "Kxf7",
+      "Nd6+"
+    ],
+    "explanation": "Force le roi adverse à se découvrir puis gagne du matériel."
+  },
+  {
+    "id": "tp-052",
+    "type": "strategy",
+    "tags": [
+      "pin",
+      "discovered-attack"
+    ],
+    "difficulty": 1567,
+    "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/3P4/5N2/PPP1PPPP/RNBQKB1R b KQkq - 1 3",
+    "solutionMovesSAN": [
+      "Qh8+",
+      "Kxh8",
+      "Nxf7+"
+    ],
+    "explanation": "Déviation du roi suivie d'une fourchette de cavalier."
+  },
+  {
+    "id": "tp-053",
+    "type": "tactic",
+    "tags": [
+      "deflection",
+      "sacrifice"
+    ],
+    "difficulty": 1584,
+    "fen": "r3k2r/ppp2ppp/2n5/3pp3/3PP3/2P2N2/PP3PPP/R3K2R w KQkq - 0 10",
+    "solutionMovesSAN": [
+      "Bxd5",
+      "Qxd5",
+      "Nxd5"
+    ],
+    "explanation": "Échange simplificateur qui gagne un pion central."
+  },
+  {
+    "id": "tp-054",
+    "type": "mate",
+    "tags": [
+      "back-rank",
+      "mate-net"
+    ],
+    "difficulty": 1601,
+    "fen": "2r3k1/5ppp/2n5/8/8/2N2Q2/5PPP/6K1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Qxf7+",
+      "Rxf7",
+      "Nxd5"
+    ],
+    "explanation": "Sacrifice de qualité pour récupérer avec initiative."
+  },
+  {
+    "id": "tp-055",
+    "type": "endgame",
+    "tags": [
+      "endgame",
+      "king-activity"
+    ],
+    "difficulty": 1618,
+    "fen": "r1b1k2r/pppp1ppp/2n2n2/4p3/2B1P3/2NP1N2/PPP2PPP/R1BQ1RK1 w kq - 4 7",
+    "solutionMovesSAN": [
+      "Qh7+",
+      "Kxh7",
+      "Rh3+"
+    ],
+    "explanation": "Motif classique du mat du couloir sur la colonne h."
+  },
+  {
+    "id": "tp-056",
+    "type": "strategy",
+    "tags": [
+      "clearance",
+      "intermezzo"
+    ],
+    "difficulty": 1635,
+    "fen": "6k1/5pp1/8/8/8/3Q4/6PP/6K1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Nxd5",
+      "Qxd5",
+      "Bxd5"
+    ],
+    "explanation": "Suppression du défenseur puis récupération immédiate."
+  },
+  {
+    "id": "tp-057",
+    "type": "tactic",
+    "tags": [
+      "opening",
+      "development"
+    ],
+    "difficulty": 1652,
+    "fen": "rnbq1rk1/pppp1ppp/5n2/4p3/2B1P3/3P1N2/PPP2PPP/RNBQ1RK1 b - - 4 5",
+    "solutionMovesSAN": [
+      "Qh5",
+      "g6",
+      "Qh6"
+    ],
+    "explanation": "Création de menaces de mat et fixation des faiblesses."
+  },
+  {
+    "id": "tp-058",
+    "type": "mate",
+    "tags": [
+      "weak-square",
+      "positional"
+    ],
+    "difficulty": 1669,
+    "fen": "2r2rk1/pp3ppp/2n5/3q4/3P4/2N1Q3/PP3PPP/2R2RK1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Qxf7+",
+      "Kxf7",
+      "Nxe5+"
+    ],
+    "explanation": "Check intermédiaire pour gagner le centre."
+  },
+  {
+    "id": "tp-059",
+    "type": "endgame",
+    "tags": [
+      "exchange-sacrifice",
+      "initiative"
+    ],
+    "difficulty": 1686,
+    "fen": "5rk1/pp3ppp/2n5/3Q4/3P4/2N5/PP3PPP/6K1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Bxf7+",
+      "Rxf7",
+      "Qxd8+"
+    ],
+    "explanation": "Enchaînement tactique avec gain de dame."
+  },
+  {
+    "id": "tp-060",
+    "type": "strategy",
+    "tags": [
+      "skewer",
+      "winning-material"
+    ],
+    "difficulty": 1703,
+    "fen": "r4rk1/pp3ppp/2n5/3q4/3P4/2N1Q3/PP3PPP/R4RK1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Qxd5",
+      "exd5",
+      "Rxe8"
+    ],
+    "explanation": "Simplification favorable menant à une finale gagnante."
+  },
+  {
+    "id": "tp-061",
+    "type": "tactic",
+    "tags": [
+      "fork",
+      "double-attack"
+    ],
+    "difficulty": 1720,
+    "fen": "6k1/5ppp/8/8/8/5Q2/6PP/6K1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Qxf7+",
+      "Kxf7",
+      "Nd6+"
+    ],
+    "explanation": "Force le roi adverse à se découvrir puis gagne du matériel."
+  },
+  {
+    "id": "tp-062",
+    "type": "mate",
+    "tags": [
+      "pin",
+      "discovered-attack"
+    ],
+    "difficulty": 1737,
+    "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/3P4/5N2/PPP1PPPP/RNBQKB1R b KQkq - 1 3",
+    "solutionMovesSAN": [
+      "Qh8+",
+      "Kxh8",
+      "Nxf7+"
+    ],
+    "explanation": "Déviation du roi suivie d'une fourchette de cavalier."
+  },
+  {
+    "id": "tp-063",
+    "type": "endgame",
+    "tags": [
+      "deflection",
+      "sacrifice"
+    ],
+    "difficulty": 1754,
+    "fen": "r3k2r/ppp2ppp/2n5/3pp3/3PP3/2P2N2/PP3PPP/R3K2R w KQkq - 0 10",
+    "solutionMovesSAN": [
+      "Bxd5",
+      "Qxd5",
+      "Nxd5"
+    ],
+    "explanation": "Échange simplificateur qui gagne un pion central."
+  },
+  {
+    "id": "tp-064",
+    "type": "strategy",
+    "tags": [
+      "back-rank",
+      "mate-net"
+    ],
+    "difficulty": 1771,
+    "fen": "2r3k1/5ppp/2n5/8/8/2N2Q2/5PPP/6K1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Qxf7+",
+      "Rxf7",
+      "Nxd5"
+    ],
+    "explanation": "Sacrifice de qualité pour récupérer avec initiative."
+  },
+  {
+    "id": "tp-065",
+    "type": "tactic",
+    "tags": [
+      "endgame",
+      "king-activity"
+    ],
+    "difficulty": 1788,
+    "fen": "r1b1k2r/pppp1ppp/2n2n2/4p3/2B1P3/2NP1N2/PPP2PPP/R1BQ1RK1 w kq - 4 7",
+    "solutionMovesSAN": [
+      "Qh7+",
+      "Kxh7",
+      "Rh3+"
+    ],
+    "explanation": "Motif classique du mat du couloir sur la colonne h."
+  },
+  {
+    "id": "tp-066",
+    "type": "mate",
+    "tags": [
+      "clearance",
+      "intermezzo"
+    ],
+    "difficulty": 1805,
+    "fen": "6k1/5pp1/8/8/8/3Q4/6PP/6K1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Nxd5",
+      "Qxd5",
+      "Bxd5"
+    ],
+    "explanation": "Suppression du défenseur puis récupération immédiate."
+  },
+  {
+    "id": "tp-067",
+    "type": "endgame",
+    "tags": [
+      "opening",
+      "development"
+    ],
+    "difficulty": 1822,
+    "fen": "rnbq1rk1/pppp1ppp/5n2/4p3/2B1P3/3P1N2/PPP2PPP/RNBQ1RK1 b - - 4 5",
+    "solutionMovesSAN": [
+      "Qh5",
+      "g6",
+      "Qh6"
+    ],
+    "explanation": "Création de menaces de mat et fixation des faiblesses."
+  },
+  {
+    "id": "tp-068",
+    "type": "strategy",
+    "tags": [
+      "weak-square",
+      "positional"
+    ],
+    "difficulty": 1839,
+    "fen": "2r2rk1/pp3ppp/2n5/3q4/3P4/2N1Q3/PP3PPP/2R2RK1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Qxf7+",
+      "Kxf7",
+      "Nxe5+"
+    ],
+    "explanation": "Check intermédiaire pour gagner le centre."
+  },
+  {
+    "id": "tp-069",
+    "type": "tactic",
+    "tags": [
+      "exchange-sacrifice",
+      "initiative"
+    ],
+    "difficulty": 1856,
+    "fen": "5rk1/pp3ppp/2n5/3Q4/3P4/2N5/PP3PPP/6K1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Bxf7+",
+      "Rxf7",
+      "Qxd8+"
+    ],
+    "explanation": "Enchaînement tactique avec gain de dame."
+  },
+  {
+    "id": "tp-070",
+    "type": "mate",
+    "tags": [
+      "skewer",
+      "winning-material"
+    ],
+    "difficulty": 1873,
+    "fen": "r4rk1/pp3ppp/2n5/3q4/3P4/2N1Q3/PP3PPP/R4RK1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Qxd5",
+      "exd5",
+      "Rxe8"
+    ],
+    "explanation": "Simplification favorable menant à une finale gagnante."
+  },
+  {
+    "id": "tp-071",
+    "type": "endgame",
+    "tags": [
+      "fork",
+      "double-attack"
+    ],
+    "difficulty": 1890,
+    "fen": "6k1/5ppp/8/8/8/5Q2/6PP/6K1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Qxf7+",
+      "Kxf7",
+      "Nd6+"
+    ],
+    "explanation": "Force le roi adverse à se découvrir puis gagne du matériel."
+  },
+  {
+    "id": "tp-072",
+    "type": "strategy",
+    "tags": [
+      "pin",
+      "discovered-attack"
+    ],
+    "difficulty": 1907,
+    "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/3P4/5N2/PPP1PPPP/RNBQKB1R b KQkq - 1 3",
+    "solutionMovesSAN": [
+      "Qh8+",
+      "Kxh8",
+      "Nxf7+"
+    ],
+    "explanation": "Déviation du roi suivie d'une fourchette de cavalier."
+  },
+  {
+    "id": "tp-073",
+    "type": "tactic",
+    "tags": [
+      "deflection",
+      "sacrifice"
+    ],
+    "difficulty": 1924,
+    "fen": "r3k2r/ppp2ppp/2n5/3pp3/3PP3/2P2N2/PP3PPP/R3K2R w KQkq - 0 10",
+    "solutionMovesSAN": [
+      "Bxd5",
+      "Qxd5",
+      "Nxd5"
+    ],
+    "explanation": "Échange simplificateur qui gagne un pion central."
+  },
+  {
+    "id": "tp-074",
+    "type": "mate",
+    "tags": [
+      "back-rank",
+      "mate-net"
+    ],
+    "difficulty": 1941,
+    "fen": "2r3k1/5ppp/2n5/8/8/2N2Q2/5PPP/6K1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Qxf7+",
+      "Rxf7",
+      "Nxd5"
+    ],
+    "explanation": "Sacrifice de qualité pour récupérer avec initiative."
+  },
+  {
+    "id": "tp-075",
+    "type": "endgame",
+    "tags": [
+      "endgame",
+      "king-activity"
+    ],
+    "difficulty": 1958,
+    "fen": "r1b1k2r/pppp1ppp/2n2n2/4p3/2B1P3/2NP1N2/PPP2PPP/R1BQ1RK1 w kq - 4 7",
+    "solutionMovesSAN": [
+      "Qh7+",
+      "Kxh7",
+      "Rh3+"
+    ],
+    "explanation": "Motif classique du mat du couloir sur la colonne h."
+  },
+  {
+    "id": "tp-076",
+    "type": "strategy",
+    "tags": [
+      "clearance",
+      "intermezzo"
+    ],
+    "difficulty": 1975,
+    "fen": "6k1/5pp1/8/8/8/3Q4/6PP/6K1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Nxd5",
+      "Qxd5",
+      "Bxd5"
+    ],
+    "explanation": "Suppression du défenseur puis récupération immédiate."
+  },
+  {
+    "id": "tp-077",
+    "type": "tactic",
+    "tags": [
+      "opening",
+      "development"
+    ],
+    "difficulty": 1992,
+    "fen": "rnbq1rk1/pppp1ppp/5n2/4p3/2B1P3/3P1N2/PPP2PPP/RNBQ1RK1 b - - 4 5",
+    "solutionMovesSAN": [
+      "Qh5",
+      "g6",
+      "Qh6"
+    ],
+    "explanation": "Création de menaces de mat et fixation des faiblesses."
+  },
+  {
+    "id": "tp-078",
+    "type": "mate",
+    "tags": [
+      "weak-square",
+      "positional"
+    ],
+    "difficulty": 2009,
+    "fen": "2r2rk1/pp3ppp/2n5/3q4/3P4/2N1Q3/PP3PPP/2R2RK1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Qxf7+",
+      "Kxf7",
+      "Nxe5+"
+    ],
+    "explanation": "Check intermédiaire pour gagner le centre."
+  },
+  {
+    "id": "tp-079",
+    "type": "endgame",
+    "tags": [
+      "exchange-sacrifice",
+      "initiative"
+    ],
+    "difficulty": 2026,
+    "fen": "5rk1/pp3ppp/2n5/3Q4/3P4/2N5/PP3PPP/6K1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Bxf7+",
+      "Rxf7",
+      "Qxd8+"
+    ],
+    "explanation": "Enchaînement tactique avec gain de dame."
+  },
+  {
+    "id": "tp-080",
+    "type": "strategy",
+    "tags": [
+      "skewer",
+      "winning-material"
+    ],
+    "difficulty": 2043,
+    "fen": "r4rk1/pp3ppp/2n5/3q4/3P4/2N1Q3/PP3PPP/R4RK1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Qxd5",
+      "exd5",
+      "Rxe8"
+    ],
+    "explanation": "Simplification favorable menant à une finale gagnante."
+  },
+  {
+    "id": "tp-081",
+    "type": "tactic",
+    "tags": [
+      "fork",
+      "double-attack"
+    ],
+    "difficulty": 2060,
+    "fen": "6k1/5ppp/8/8/8/5Q2/6PP/6K1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Qxf7+",
+      "Kxf7",
+      "Nd6+"
+    ],
+    "explanation": "Force le roi adverse à se découvrir puis gagne du matériel."
+  },
+  {
+    "id": "tp-082",
+    "type": "mate",
+    "tags": [
+      "pin",
+      "discovered-attack"
+    ],
+    "difficulty": 2077,
+    "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/3P4/5N2/PPP1PPPP/RNBQKB1R b KQkq - 1 3",
+    "solutionMovesSAN": [
+      "Qh8+",
+      "Kxh8",
+      "Nxf7+"
+    ],
+    "explanation": "Déviation du roi suivie d'une fourchette de cavalier."
+  },
+  {
+    "id": "tp-083",
+    "type": "endgame",
+    "tags": [
+      "deflection",
+      "sacrifice"
+    ],
+    "difficulty": 2094,
+    "fen": "r3k2r/ppp2ppp/2n5/3pp3/3PP3/2P2N2/PP3PPP/R3K2R w KQkq - 0 10",
+    "solutionMovesSAN": [
+      "Bxd5",
+      "Qxd5",
+      "Nxd5"
+    ],
+    "explanation": "Échange simplificateur qui gagne un pion central."
+  },
+  {
+    "id": "tp-084",
+    "type": "strategy",
+    "tags": [
+      "back-rank",
+      "mate-net"
+    ],
+    "difficulty": 2111,
+    "fen": "2r3k1/5ppp/2n5/8/8/2N2Q2/5PPP/6K1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Qxf7+",
+      "Rxf7",
+      "Nxd5"
+    ],
+    "explanation": "Sacrifice de qualité pour récupérer avec initiative."
+  },
+  {
+    "id": "tp-085",
+    "type": "tactic",
+    "tags": [
+      "endgame",
+      "king-activity"
+    ],
+    "difficulty": 2128,
+    "fen": "r1b1k2r/pppp1ppp/2n2n2/4p3/2B1P3/2NP1N2/PPP2PPP/R1BQ1RK1 w kq - 4 7",
+    "solutionMovesSAN": [
+      "Qh7+",
+      "Kxh7",
+      "Rh3+"
+    ],
+    "explanation": "Motif classique du mat du couloir sur la colonne h."
+  },
+  {
+    "id": "tp-086",
+    "type": "mate",
+    "tags": [
+      "clearance",
+      "intermezzo"
+    ],
+    "difficulty": 2145,
+    "fen": "6k1/5pp1/8/8/8/3Q4/6PP/6K1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Nxd5",
+      "Qxd5",
+      "Bxd5"
+    ],
+    "explanation": "Suppression du défenseur puis récupération immédiate."
+  },
+  {
+    "id": "tp-087",
+    "type": "endgame",
+    "tags": [
+      "opening",
+      "development"
+    ],
+    "difficulty": 2162,
+    "fen": "rnbq1rk1/pppp1ppp/5n2/4p3/2B1P3/3P1N2/PPP2PPP/RNBQ1RK1 b - - 4 5",
+    "solutionMovesSAN": [
+      "Qh5",
+      "g6",
+      "Qh6"
+    ],
+    "explanation": "Création de menaces de mat et fixation des faiblesses."
+  },
+  {
+    "id": "tp-088",
+    "type": "strategy",
+    "tags": [
+      "weak-square",
+      "positional"
+    ],
+    "difficulty": 2179,
+    "fen": "2r2rk1/pp3ppp/2n5/3q4/3P4/2N1Q3/PP3PPP/2R2RK1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Qxf7+",
+      "Kxf7",
+      "Nxe5+"
+    ],
+    "explanation": "Check intermédiaire pour gagner le centre."
+  },
+  {
+    "id": "tp-089",
+    "type": "tactic",
+    "tags": [
+      "exchange-sacrifice",
+      "initiative"
+    ],
+    "difficulty": 2196,
+    "fen": "5rk1/pp3ppp/2n5/3Q4/3P4/2N5/PP3PPP/6K1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Bxf7+",
+      "Rxf7",
+      "Qxd8+"
+    ],
+    "explanation": "Enchaînement tactique avec gain de dame."
+  },
+  {
+    "id": "tp-090",
+    "type": "mate",
+    "tags": [
+      "skewer",
+      "winning-material"
+    ],
+    "difficulty": 2213,
+    "fen": "r4rk1/pp3ppp/2n5/3q4/3P4/2N1Q3/PP3PPP/R4RK1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Qxd5",
+      "exd5",
+      "Rxe8"
+    ],
+    "explanation": "Simplification favorable menant à une finale gagnante."
+  },
+  {
+    "id": "tp-091",
+    "type": "endgame",
+    "tags": [
+      "fork",
+      "double-attack"
+    ],
+    "difficulty": 2230,
+    "fen": "6k1/5ppp/8/8/8/5Q2/6PP/6K1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Qxf7+",
+      "Kxf7",
+      "Nd6+"
+    ],
+    "explanation": "Force le roi adverse à se découvrir puis gagne du matériel."
+  },
+  {
+    "id": "tp-092",
+    "type": "strategy",
+    "tags": [
+      "pin",
+      "discovered-attack"
+    ],
+    "difficulty": 2247,
+    "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/3P4/5N2/PPP1PPPP/RNBQKB1R b KQkq - 1 3",
+    "solutionMovesSAN": [
+      "Qh8+",
+      "Kxh8",
+      "Nxf7+"
+    ],
+    "explanation": "Déviation du roi suivie d'une fourchette de cavalier."
+  },
+  {
+    "id": "tp-093",
+    "type": "tactic",
+    "tags": [
+      "deflection",
+      "sacrifice"
+    ],
+    "difficulty": 2264,
+    "fen": "r3k2r/ppp2ppp/2n5/3pp3/3PP3/2P2N2/PP3PPP/R3K2R w KQkq - 0 10",
+    "solutionMovesSAN": [
+      "Bxd5",
+      "Qxd5",
+      "Nxd5"
+    ],
+    "explanation": "Échange simplificateur qui gagne un pion central."
+  },
+  {
+    "id": "tp-094",
+    "type": "mate",
+    "tags": [
+      "back-rank",
+      "mate-net"
+    ],
+    "difficulty": 2281,
+    "fen": "2r3k1/5ppp/2n5/8/8/2N2Q2/5PPP/6K1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Qxf7+",
+      "Rxf7",
+      "Nxd5"
+    ],
+    "explanation": "Sacrifice de qualité pour récupérer avec initiative."
+  },
+  {
+    "id": "tp-095",
+    "type": "endgame",
+    "tags": [
+      "endgame",
+      "king-activity"
+    ],
+    "difficulty": 2298,
+    "fen": "r1b1k2r/pppp1ppp/2n2n2/4p3/2B1P3/2NP1N2/PPP2PPP/R1BQ1RK1 w kq - 4 7",
+    "solutionMovesSAN": [
+      "Qh7+",
+      "Kxh7",
+      "Rh3+"
+    ],
+    "explanation": "Motif classique du mat du couloir sur la colonne h."
+  },
+  {
+    "id": "tp-096",
+    "type": "strategy",
+    "tags": [
+      "clearance",
+      "intermezzo"
+    ],
+    "difficulty": 2315,
+    "fen": "6k1/5pp1/8/8/8/3Q4/6PP/6K1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Nxd5",
+      "Qxd5",
+      "Bxd5"
+    ],
+    "explanation": "Suppression du défenseur puis récupération immédiate."
+  },
+  {
+    "id": "tp-097",
+    "type": "tactic",
+    "tags": [
+      "opening",
+      "development"
+    ],
+    "difficulty": 2332,
+    "fen": "rnbq1rk1/pppp1ppp/5n2/4p3/2B1P3/3P1N2/PPP2PPP/RNBQ1RK1 b - - 4 5",
+    "solutionMovesSAN": [
+      "Qh5",
+      "g6",
+      "Qh6"
+    ],
+    "explanation": "Création de menaces de mat et fixation des faiblesses."
+  },
+  {
+    "id": "tp-098",
+    "type": "mate",
+    "tags": [
+      "weak-square",
+      "positional"
+    ],
+    "difficulty": 2349,
+    "fen": "2r2rk1/pp3ppp/2n5/3q4/3P4/2N1Q3/PP3PPP/2R2RK1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Qxf7+",
+      "Kxf7",
+      "Nxe5+"
+    ],
+    "explanation": "Check intermédiaire pour gagner le centre."
+  },
+  {
+    "id": "tp-099",
+    "type": "endgame",
+    "tags": [
+      "exchange-sacrifice",
+      "initiative"
+    ],
+    "difficulty": 2366,
+    "fen": "5rk1/pp3ppp/2n5/3Q4/3P4/2N5/PP3PPP/6K1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Bxf7+",
+      "Rxf7",
+      "Qxd8+"
+    ],
+    "explanation": "Enchaînement tactique avec gain de dame."
+  },
+  {
+    "id": "tp-100",
+    "type": "strategy",
+    "tags": [
+      "skewer",
+      "winning-material"
+    ],
+    "difficulty": 2383,
+    "fen": "r4rk1/pp3ppp/2n5/3q4/3P4/2N1Q3/PP3PPP/R4RK1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Qxd5",
+      "exd5",
+      "Rxe8"
+    ],
+    "explanation": "Simplification favorable menant à une finale gagnante."
+  }
+]
