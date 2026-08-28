@@ -1,4 +1,4 @@
-export default function Home() {
+export default function HomePanel() {
   return (
     <section className="home" aria-labelledby="home-title">
       <p className="eyebrow">Coach personnel post-partie</p>
@@ -16,7 +16,7 @@ export default function Home() {
         <article>
           <span>02</span>
           <h2>Comprendre</h2>
-          <p>Heuristiques explicables pour identifier des thèmes de progression.</p>
+          <p>Fondations PGN testées, prêtes pour le futur moteur pédagogique post-partie.</p>
         </article>
         <article>
           <span>03</span>

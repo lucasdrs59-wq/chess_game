@@ -5,6 +5,16 @@ sémantique.
 
 ## [Non publié]
 
+### Modifié
+
+- architecture source regroupée par fonctionnalité ;
+- checklist fair-play déplacée sous `docs/quality/`.
+
+### Retiré
+
+- modules Dexie, types et écrans expérimentaux jamais exécutés ;
+- heuristiques non branchées et non couvertes par les tests.
+
 ### Prévu
 
 - bibliothèque de parties importées ;

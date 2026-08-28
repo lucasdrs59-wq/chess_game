@@ -1,6 +1,7 @@
-import { FormEvent, useMemo, useState } from 'react';
-import { LocalImportRepository } from '../services/localImportRepository';
-import { ImportProgress, importRecentGames } from '../services/importService';
+import { type FormEvent, useMemo, useState } from "react";
+
+import { type ImportProgress, importRecentGames } from "./importService";
+import { LocalImportRepository } from "./localImportRepository";
 
 const defaultProgress: ImportProgress = {
   currentMonth: 0,
@@ -10,7 +11,7 @@ const defaultProgress: ImportProgress = {
   errors: 0,
 };
 
-export const Import = () => {
+export default function ImportPanel() {
   const [username, setUsername] = useState('');
   const [isImporting, setIsImporting] = useState(false);
   const [progress, setProgress] = useState<ImportProgress>(defaultProgress);
@@ -94,6 +95,4 @@ export const Import = () => {
       {statusMessage ? <p className="status-message">{statusMessage}</p> : null}
     </section>
   );
-};
-
-export default Import;
+}

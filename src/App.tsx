@@ -1,16 +1,16 @@
 import { useState } from "react";
 
 import AppLayout from "./components/AppLayout";
-import Import from "./components/Import";
-import Home from "./pages/Home";
-import Settings from "./pages/Settings";
-import Training from "./pages/Training";
+import HomePanel from "./features/home/HomePanel";
+import ImportPanel from "./features/import/ImportPanel";
+import PolicyPanel from "./features/policy/PolicyPanel";
+import TrainingPanel from "./features/training/TrainingPanel";
 
 const views = {
-  home: { label: "Accueil", component: <Home /> },
-  import: { label: "Importer", component: <Import /> },
-  training: { label: "S'entraîner", component: <Training /> },
-  settings: { label: "Règles", component: <Settings /> },
+  home: { label: "Accueil", component: <HomePanel /> },
+  import: { label: "Importer", component: <ImportPanel /> },
+  training: { label: "S'entraîner", component: <TrainingPanel /> },
+  policy: { label: "Règles", component: <PolicyPanel /> },
 } as const;
 
 type View = keyof typeof views;

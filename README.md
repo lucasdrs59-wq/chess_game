@@ -16,13 +16,12 @@ pendant une partie**.
 - import des archives publiques Chess.com avec reprise sur limitation `429` ;
 - déduplication locale des parties ;
 - parseur PGN et reconstruction des positions ;
-- heuristiques post-partie explicables ;
 - sélection d’exercices et répétition espacée ;
 - pack d’entraînement dont chaque ligne SAN est validée automatiquement ;
 - CI avec lint, TypeScript strict, tests et build de production.
 
-> Statut : prototype public. Les heuristiques orientent la revue pédagogique ;
-> elles ne remplacent pas l’analyse d’un moteur ni le jugement d’un entraîneur.
+> Statut : prototype public. Le parseur et les exercices sont vérifiés ; le
+> moteur pédagogique post-partie reste une évolution planifiée.
 
 ## Démarrage
 
@@ -52,12 +51,13 @@ Ouvrir ensuite [http://localhost:5173](http://localhost:5173).
 
 ```text
 src/
-├── components/        # shell, import et règle de fair-play
-├── data/              # exercices publics validés
-├── lib/               # base IndexedDB locale
-├── pages/             # accueil, entraînement, détail et règles
-├── services/          # API, import, PGN, heuristiques et planification
-└── types/             # modèle de domaine
+├── components/        # shell et composants partagés
+└── features/
+    ├── analysis/      # fondation PGN testée
+    ├── home/          # présentation produit
+    ├── import/        # API Chess.com, stockage et interface
+    ├── policy/        # confidentialité et fair-play
+    └── training/      # exercices, sélection et répétition espacée
 ```
 
 Les décisions structurantes sont tracées dans
@@ -68,12 +68,12 @@ Les décisions structurantes sont tracées dans
 - aucune clé API n’est nécessaire ;
 - aucune donnée n’est envoyée vers un backend du projet ;
 - les imports utilisent uniquement l’API publique Chess.com ;
-- l’historique reste dans `localStorage` ou IndexedDB ;
+- l’historique reste dans `localStorage` ;
 - aucune entrée FEN libre, capture d’écran, surcouche ou analyse live ;
 - les données d’entraînement du dépôt sont synthétiques et testées.
 
 Consulter [SECURITY.md](SECURITY.md) pour signaler une vulnérabilité et la
-[checklist fair-play](qa/ux-non-regression-checklist.md) avant chaque release.
+[checklist fair-play](docs/quality/FAIR_PLAY_CHECKLIST.md) avant chaque release.
 
 ## Feuille de route
 

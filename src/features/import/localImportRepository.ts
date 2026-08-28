@@ -1,4 +1,4 @@
-import { ImportRepository, StoredGame } from './importService';
+import type { ImportRepository, StoredGame } from "./importService";
 
 const STORAGE_KEY = 'chess_import_games';
 

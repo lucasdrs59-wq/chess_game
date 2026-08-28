@@ -1,12 +1,12 @@
 import { useMemo, useState } from "react";
 import {
-  HintLevel,
-  Mistake,
-  Settings,
-  TrainingHistoryItem,
+  type HintLevel,
+  type Mistake,
+  type Settings,
+  type TrainingHistoryItem,
   recordTrainingResult,
   selectTrainingPuzzle,
-} from "../services/trainingService";
+} from "./trainingService";
 
 const TRAINING_HISTORY_KEY = "trainingHistory";
 
@@ -37,7 +37,7 @@ const mistakes: Mistake[] = [
   { category: "fork", createdAt: new Date().toISOString() },
 ];
 
-export default function Training() {
+export default function TrainingPanel() {
   const [history, setHistory] = useState<TrainingHistoryItem[]>(() => loadHistory());
   const [hintLevel, setHintLevel] = useState<HintLevel>("light");
   const [solutionVisible, setSolutionVisible] = useState(false);

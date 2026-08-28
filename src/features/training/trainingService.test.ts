@@ -1,6 +1,10 @@
 import { describe, expect, it } from "vitest";
 
-import { recordTrainingResult, scheduleNextReview, selectTrainingPuzzle } from "./trainingService";
+import {
+  recordTrainingResult,
+  scheduleNextReview,
+  selectTrainingPuzzle,
+} from "./trainingService";
 
 describe("trainingService", () => {
   it("sélectionne un puzzle dans la fenêtre de difficulté", () => {

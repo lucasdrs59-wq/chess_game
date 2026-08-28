@@ -1,4 +1,4 @@
-# Checklist QA — Non-régression UX (Fair Play)
+# Checklist qualité — Fair-play
 
 Objectif: confirmer qu’aucun écran ne propose d’assistance de type “meilleur coup” sur position arbitraire.
 
@@ -8,7 +8,7 @@ Objectif: confirmer qu’aucun écran ne propose d’assistance de type “meill
 - [ ] Le bandeau indique explicitement: « Analyse après la partie uniquement ».
 - [ ] Le bandeau indique explicitement l’interdiction d’analyse live.
 
-## Écran Settings
+## Écran Règles
 
 - [ ] Le texte « Analyse après la partie uniquement » est affiché.
 - [ ] Le texte « Interdiction d’analyse live » est affiché.

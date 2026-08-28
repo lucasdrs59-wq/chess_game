@@ -23,7 +23,7 @@ interface MonthlyGamesResponse {
   games: ChessComGame[];
 }
 
-const CHESS_COM_API_BASE = 'https://api.chess.com/pub/player';
+const CHESS_COM_API_BASE = "https://api.chess.com/pub/player";
 
 const fetchJson = async <T>(url: string): Promise<T> => {
   const response = await fetch(url, {

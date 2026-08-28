@@ -1,4 +1,4 @@
-import { ChessComGame, fetchArchives, fetchMonthlyGames } from './chesscomApi';
+import { type ChessComGame, fetchArchives, fetchMonthlyGames } from "./chesscomApi";
 
 export interface ImportFilters {
   timeClass?: string;
