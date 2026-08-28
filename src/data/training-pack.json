@@ -1,0 +1,1922 @@
+[
+  {
+    "type": "mate-in-1",
+    "tags": [
+      "checkmate",
+      "back-rank",
+      "set-1"
+    ],
+    "difficulty": 700,
+    "fen": "6k1/5ppp/8/8/8/8/5PPP/5RK1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Re1#"
+    ],
+    "explanation": "Les pièces lourdes contrôlent la dernière rangée noire. (Puzzle #1)"
+  },
+  {
+    "type": "mate-in-2",
+    "tags": [
+      "checkmate",
+      "pin",
+      "set-2"
+    ],
+    "difficulty": 760,
+    "fen": "r1bqk2r/pppp1ppp/2n5/4N3/3P4/8/PPP2PPP/R1BQKB1R w KQkq - 0 1",
+    "solutionMovesSAN": [
+      "Nxc6",
+      "dxc6",
+      "Qe2+"
+    ],
+    "explanation": "Le cavalier élimine le défenseur puis le roi est forcé dans un réseau. (Puzzle #2)"
+  },
+  {
+    "type": "tactic",
+    "tags": [
+      "fork",
+      "knight",
+      "set-3"
+    ],
+    "difficulty": 820,
+    "fen": "rnbqkb1r/ppp2ppp/3p1n2/4p3/2B1P3/5N2/PPPP1PPP/RNBQ1RK1 w kq - 0 1",
+    "solutionMovesSAN": [
+      "Nxe5",
+      "dxe5",
+      "Bxf7+"
+    ],
+    "explanation": "Un sacrifice temporaire permet une fourchette et récupère le matériel. (Puzzle #3)"
+  },
+  {
+    "type": "tactic",
+    "tags": [
+      "pin",
+      "bishop",
+      "set-4"
+    ],
+    "difficulty": 880,
+    "fen": "r2q1rk1/ppp2ppp/2n5/3n4/3P4/2P1BN2/PP3PPP/R2Q1RK1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Bxh7+",
+      "Kxh7",
+      "Ng5+"
+    ],
+    "explanation": "Le clouage sur la diagonale ouvre l'attaque contre le roi. (Puzzle #4)"
+  },
+  {
+    "type": "endgame",
+    "tags": [
+      "promotion",
+      "king",
+      "set-5"
+    ],
+    "difficulty": 940,
+    "fen": "8/2k5/2P5/8/8/3K4/8/8 w - - 0 1",
+    "solutionMovesSAN": [
+      "c7",
+      "Kxc7",
+      "Kc4"
+    ],
+    "explanation": "Créer un pion passé avancé force le roi adverse à se détourner. (Puzzle #5)"
+  },
+  {
+    "type": "defense",
+    "tags": [
+      "interference",
+      "queen",
+      "set-6"
+    ],
+    "difficulty": 1000,
+    "fen": "4rrk1/1pp2ppp/p1n5/3q4/3P4/2P1Q3/PP3PPP/4RRK1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Qxe8",
+      "Rxe8",
+      "Rxe8#"
+    ],
+    "explanation": "L'échange attire la tour et supprime la défense de la dernière rangée. (Puzzle #6)"
+  },
+  {
+    "type": "tactic",
+    "tags": [
+      "discovered-attack",
+      "rook",
+      "set-1"
+    ],
+    "difficulty": 1060,
+    "fen": "2r3k1/5ppp/1q6/1p6/3Q4/1P3P2/P4KPP/2R5 w - - 0 1",
+    "solutionMovesSAN": [
+      "Rxc8+",
+      "Rxc8",
+      "Qxb6"
+    ],
+    "explanation": "L'échec intermédiaire découvre une attaque sur la dame noire. (Puzzle #7)"
+  },
+  {
+    "type": "mate-in-3",
+    "tags": [
+      "checkmate",
+      "sacrifice",
+      "set-2"
+    ],
+    "difficulty": 1120,
+    "fen": "r1bq1rk1/pp3ppp/2n5/2bp4/8/2N1PN2/PP3PPP/R1BQ1RK1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Bxh7+",
+      "Kxh7",
+      "Ng5+",
+      "Kg8",
+      "Qh5"
+    ],
+    "explanation": "Le sacrifice attire le roi puis la dame et le cavalier coordonnent le mat. (Puzzle #8)"
+  },
+  {
+    "type": "tactic",
+    "tags": [
+      "skewer",
+      "bishop",
+      "set-3"
+    ],
+    "difficulty": 1180,
+    "fen": "4r1k1/1p3ppp/p1n5/3q4/3P4/2P1B3/PP3PPP/3Q1RK1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Bf4",
+      "Rxe1",
+      "Qxe1"
+    ],
+    "explanation": "Le fou crée une brochette et gagne du temps pour simplifier. (Puzzle #9)"
+  },
+  {
+    "type": "endgame",
+    "tags": [
+      "opposition",
+      "king",
+      "set-4"
+    ],
+    "difficulty": 1240,
+    "fen": "8/8/8/3k4/8/3K4/8/4P3 w - - 0 1",
+    "solutionMovesSAN": [
+      "e4+",
+      "Ke5",
+      "Ke3"
+    ],
+    "explanation": "L'opposition permet de pénétrer et soutenir le pion. (Puzzle #10)"
+  },
+  {
+    "type": "mate-in-1",
+    "tags": [
+      "checkmate",
+      "back-rank",
+      "set-5"
+    ],
+    "difficulty": 1300,
+    "fen": "6k1/5ppp/8/8/8/8/5PPP/5RK1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Re1#"
+    ],
+    "explanation": "Les pièces lourdes contrôlent la dernière rangée noire. (Puzzle #11)"
+  },
+  {
+    "type": "mate-in-2",
+    "tags": [
+      "checkmate",
+      "pin",
+      "set-6"
+    ],
+    "difficulty": 1360,
+    "fen": "r1bqk2r/pppp1ppp/2n5/4N3/3P4/8/PPP2PPP/R1BQKB1R w KQkq - 0 1",
+    "solutionMovesSAN": [
+      "Nxc6",
+      "dxc6",
+      "Qe2+"
+    ],
+    "explanation": "Le cavalier élimine le défenseur puis le roi est forcé dans un réseau. (Puzzle #12)"
+  },
+  {
+    "type": "tactic",
+    "tags": [
+      "fork",
+      "knight",
+      "set-1"
+    ],
+    "difficulty": 1420,
+    "fen": "rnbqkb1r/ppp2ppp/3p1n2/4p3/2B1P3/5N2/PPPP1PPP/RNBQ1RK1 w kq - 0 1",
+    "solutionMovesSAN": [
+      "Nxe5",
+      "dxe5",
+      "Bxf7+"
+    ],
+    "explanation": "Un sacrifice temporaire permet une fourchette et récupère le matériel. (Puzzle #13)"
+  },
+  {
+    "type": "tactic",
+    "tags": [
+      "pin",
+      "bishop",
+      "set-2"
+    ],
+    "difficulty": 1480,
+    "fen": "r2q1rk1/ppp2ppp/2n5/3n4/3P4/2P1BN2/PP3PPP/R2Q1RK1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Bxh7+",
+      "Kxh7",
+      "Ng5+"
+    ],
+    "explanation": "Le clouage sur la diagonale ouvre l'attaque contre le roi. (Puzzle #14)"
+  },
+  {
+    "type": "endgame",
+    "tags": [
+      "promotion",
+      "king",
+      "set-3"
+    ],
+    "difficulty": 1540,
+    "fen": "8/2k5/2P5/8/8/3K4/8/8 w - - 0 1",
+    "solutionMovesSAN": [
+      "c7",
+      "Kxc7",
+      "Kc4"
+    ],
+    "explanation": "Créer un pion passé avancé force le roi adverse à se détourner. (Puzzle #15)"
+  },
+  {
+    "type": "defense",
+    "tags": [
+      "interference",
+      "queen",
+      "set-4"
+    ],
+    "difficulty": 1600,
+    "fen": "4rrk1/1pp2ppp/p1n5/3q4/3P4/2P1Q3/PP3PPP/4RRK1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Qxe8",
+      "Rxe8",
+      "Rxe8#"
+    ],
+    "explanation": "L'échange attire la tour et supprime la défense de la dernière rangée. (Puzzle #16)"
+  },
+  {
+    "type": "tactic",
+    "tags": [
+      "discovered-attack",
+      "rook",
+      "set-5"
+    ],
+    "difficulty": 1660,
+    "fen": "2r3k1/5ppp/1q6/1p6/3Q4/1P3P2/P4KPP/2R5 w - - 0 1",
+    "solutionMovesSAN": [
+      "Rxc8+",
+      "Rxc8",
+      "Qxb6"
+    ],
+    "explanation": "L'échec intermédiaire découvre une attaque sur la dame noire. (Puzzle #17)"
+  },
+  {
+    "type": "mate-in-3",
+    "tags": [
+      "checkmate",
+      "sacrifice",
+      "set-6"
+    ],
+    "difficulty": 1720,
+    "fen": "r1bq1rk1/pp3ppp/2n5/2bp4/8/2N1PN2/PP3PPP/R1BQ1RK1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Bxh7+",
+      "Kxh7",
+      "Ng5+",
+      "Kg8",
+      "Qh5"
+    ],
+    "explanation": "Le sacrifice attire le roi puis la dame et le cavalier coordonnent le mat. (Puzzle #18)"
+  },
+  {
+    "type": "tactic",
+    "tags": [
+      "skewer",
+      "bishop",
+      "set-1"
+    ],
+    "difficulty": 1780,
+    "fen": "4r1k1/1p3ppp/p1n5/3q4/3P4/2P1B3/PP3PPP/3Q1RK1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Bf4",
+      "Rxe1",
+      "Qxe1"
+    ],
+    "explanation": "Le fou crée une brochette et gagne du temps pour simplifier. (Puzzle #19)"
+  },
+  {
+    "type": "endgame",
+    "tags": [
+      "opposition",
+      "king",
+      "set-2"
+    ],
+    "difficulty": 1840,
+    "fen": "8/8/8/3k4/8/3K4/8/4P3 w - - 0 1",
+    "solutionMovesSAN": [
+      "e4+",
+      "Ke5",
+      "Ke3"
+    ],
+    "explanation": "L'opposition permet de pénétrer et soutenir le pion. (Puzzle #20)"
+  },
+  {
+    "type": "mate-in-1",
+    "tags": [
+      "checkmate",
+      "back-rank",
+      "set-3"
+    ],
+    "difficulty": 725,
+    "fen": "6k1/5ppp/8/8/8/8/5PPP/5RK1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Re1#"
+    ],
+    "explanation": "Les pièces lourdes contrôlent la dernière rangée noire. (Puzzle #21)"
+  },
+  {
+    "type": "mate-in-2",
+    "tags": [
+      "checkmate",
+      "pin",
+      "set-4"
+    ],
+    "difficulty": 785,
+    "fen": "r1bqk2r/pppp1ppp/2n5/4N3/3P4/8/PPP2PPP/R1BQKB1R w KQkq - 0 1",
+    "solutionMovesSAN": [
+      "Nxc6",
+      "dxc6",
+      "Qe2+"
+    ],
+    "explanation": "Le cavalier élimine le défenseur puis le roi est forcé dans un réseau. (Puzzle #22)"
+  },
+  {
+    "type": "tactic",
+    "tags": [
+      "fork",
+      "knight",
+      "set-5"
+    ],
+    "difficulty": 845,
+    "fen": "rnbqkb1r/ppp2ppp/3p1n2/4p3/2B1P3/5N2/PPPP1PPP/RNBQ1RK1 w kq - 0 1",
+    "solutionMovesSAN": [
+      "Nxe5",
+      "dxe5",
+      "Bxf7+"
+    ],
+    "explanation": "Un sacrifice temporaire permet une fourchette et récupère le matériel. (Puzzle #23)"
+  },
+  {
+    "type": "tactic",
+    "tags": [
+      "pin",
+      "bishop",
+      "set-6"
+    ],
+    "difficulty": 905,
+    "fen": "r2q1rk1/ppp2ppp/2n5/3n4/3P4/2P1BN2/PP3PPP/R2Q1RK1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Bxh7+",
+      "Kxh7",
+      "Ng5+"
+    ],
+    "explanation": "Le clouage sur la diagonale ouvre l'attaque contre le roi. (Puzzle #24)"
+  },
+  {
+    "type": "endgame",
+    "tags": [
+      "promotion",
+      "king",
+      "set-1"
+    ],
+    "difficulty": 965,
+    "fen": "8/2k5/2P5/8/8/3K4/8/8 w - - 0 1",
+    "solutionMovesSAN": [
+      "c7",
+      "Kxc7",
+      "Kc4"
+    ],
+    "explanation": "Créer un pion passé avancé force le roi adverse à se détourner. (Puzzle #25)"
+  },
+  {
+    "type": "defense",
+    "tags": [
+      "interference",
+      "queen",
+      "set-2"
+    ],
+    "difficulty": 1025,
+    "fen": "4rrk1/1pp2ppp/p1n5/3q4/3P4/2P1Q3/PP3PPP/4RRK1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Qxe8",
+      "Rxe8",
+      "Rxe8#"
+    ],
+    "explanation": "L'échange attire la tour et supprime la défense de la dernière rangée. (Puzzle #26)"
+  },
+  {
+    "type": "tactic",
+    "tags": [
+      "discovered-attack",
+      "rook",
+      "set-3"
+    ],
+    "difficulty": 1085,
+    "fen": "2r3k1/5ppp/1q6/1p6/3Q4/1P3P2/P4KPP/2R5 w - - 0 1",
+    "solutionMovesSAN": [
+      "Rxc8+",
+      "Rxc8",
+      "Qxb6"
+    ],
+    "explanation": "L'échec intermédiaire découvre une attaque sur la dame noire. (Puzzle #27)"
+  },
+  {
+    "type": "mate-in-3",
+    "tags": [
+      "checkmate",
+      "sacrifice",
+      "set-4"
+    ],
+    "difficulty": 1145,
+    "fen": "r1bq1rk1/pp3ppp/2n5/2bp4/8/2N1PN2/PP3PPP/R1BQ1RK1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Bxh7+",
+      "Kxh7",
+      "Ng5+",
+      "Kg8",
+      "Qh5"
+    ],
+    "explanation": "Le sacrifice attire le roi puis la dame et le cavalier coordonnent le mat. (Puzzle #28)"
+  },
+  {
+    "type": "tactic",
+    "tags": [
+      "skewer",
+      "bishop",
+      "set-5"
+    ],
+    "difficulty": 1205,
+    "fen": "4r1k1/1p3ppp/p1n5/3q4/3P4/2P1B3/PP3PPP/3Q1RK1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Bf4",
+      "Rxe1",
+      "Qxe1"
+    ],
+    "explanation": "Le fou crée une brochette et gagne du temps pour simplifier. (Puzzle #29)"
+  },
+  {
+    "type": "endgame",
+    "tags": [
+      "opposition",
+      "king",
+      "set-6"
+    ],
+    "difficulty": 1265,
+    "fen": "8/8/8/3k4/8/3K4/8/4P3 w - - 0 1",
+    "solutionMovesSAN": [
+      "e4+",
+      "Ke5",
+      "Ke3"
+    ],
+    "explanation": "L'opposition permet de pénétrer et soutenir le pion. (Puzzle #30)"
+  },
+  {
+    "type": "mate-in-1",
+    "tags": [
+      "checkmate",
+      "back-rank",
+      "set-1"
+    ],
+    "difficulty": 1325,
+    "fen": "6k1/5ppp/8/8/8/8/5PPP/5RK1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Re1#"
+    ],
+    "explanation": "Les pièces lourdes contrôlent la dernière rangée noire. (Puzzle #31)"
+  },
+  {
+    "type": "mate-in-2",
+    "tags": [
+      "checkmate",
+      "pin",
+      "set-2"
+    ],
+    "difficulty": 1385,
+    "fen": "r1bqk2r/pppp1ppp/2n5/4N3/3P4/8/PPP2PPP/R1BQKB1R w KQkq - 0 1",
+    "solutionMovesSAN": [
+      "Nxc6",
+      "dxc6",
+      "Qe2+"
+    ],
+    "explanation": "Le cavalier élimine le défenseur puis le roi est forcé dans un réseau. (Puzzle #32)"
+  },
+  {
+    "type": "tactic",
+    "tags": [
+      "fork",
+      "knight",
+      "set-3"
+    ],
+    "difficulty": 1445,
+    "fen": "rnbqkb1r/ppp2ppp/3p1n2/4p3/2B1P3/5N2/PPPP1PPP/RNBQ1RK1 w kq - 0 1",
+    "solutionMovesSAN": [
+      "Nxe5",
+      "dxe5",
+      "Bxf7+"
+    ],
+    "explanation": "Un sacrifice temporaire permet une fourchette et récupère le matériel. (Puzzle #33)"
+  },
+  {
+    "type": "tactic",
+    "tags": [
+      "pin",
+      "bishop",
+      "set-4"
+    ],
+    "difficulty": 1505,
+    "fen": "r2q1rk1/ppp2ppp/2n5/3n4/3P4/2P1BN2/PP3PPP/R2Q1RK1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Bxh7+",
+      "Kxh7",
+      "Ng5+"
+    ],
+    "explanation": "Le clouage sur la diagonale ouvre l'attaque contre le roi. (Puzzle #34)"
+  },
+  {
+    "type": "endgame",
+    "tags": [
+      "promotion",
+      "king",
+      "set-5"
+    ],
+    "difficulty": 1565,
+    "fen": "8/2k5/2P5/8/8/3K4/8/8 w - - 0 1",
+    "solutionMovesSAN": [
+      "c7",
+      "Kxc7",
+      "Kc4"
+    ],
+    "explanation": "Créer un pion passé avancé force le roi adverse à se détourner. (Puzzle #35)"
+  },
+  {
+    "type": "defense",
+    "tags": [
+      "interference",
+      "queen",
+      "set-6"
+    ],
+    "difficulty": 1625,
+    "fen": "4rrk1/1pp2ppp/p1n5/3q4/3P4/2P1Q3/PP3PPP/4RRK1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Qxe8",
+      "Rxe8",
+      "Rxe8#"
+    ],
+    "explanation": "L'échange attire la tour et supprime la défense de la dernière rangée. (Puzzle #36)"
+  },
+  {
+    "type": "tactic",
+    "tags": [
+      "discovered-attack",
+      "rook",
+      "set-1"
+    ],
+    "difficulty": 1685,
+    "fen": "2r3k1/5ppp/1q6/1p6/3Q4/1P3P2/P4KPP/2R5 w - - 0 1",
+    "solutionMovesSAN": [
+      "Rxc8+",
+      "Rxc8",
+      "Qxb6"
+    ],
+    "explanation": "L'échec intermédiaire découvre une attaque sur la dame noire. (Puzzle #37)"
+  },
+  {
+    "type": "mate-in-3",
+    "tags": [
+      "checkmate",
+      "sacrifice",
+      "set-2"
+    ],
+    "difficulty": 1745,
+    "fen": "r1bq1rk1/pp3ppp/2n5/2bp4/8/2N1PN2/PP3PPP/R1BQ1RK1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Bxh7+",
+      "Kxh7",
+      "Ng5+",
+      "Kg8",
+      "Qh5"
+    ],
+    "explanation": "Le sacrifice attire le roi puis la dame et le cavalier coordonnent le mat. (Puzzle #38)"
+  },
+  {
+    "type": "tactic",
+    "tags": [
+      "skewer",
+      "bishop",
+      "set-3"
+    ],
+    "difficulty": 1805,
+    "fen": "4r1k1/1p3ppp/p1n5/3q4/3P4/2P1B3/PP3PPP/3Q1RK1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Bf4",
+      "Rxe1",
+      "Qxe1"
+    ],
+    "explanation": "Le fou crée une brochette et gagne du temps pour simplifier. (Puzzle #39)"
+  },
+  {
+    "type": "endgame",
+    "tags": [
+      "opposition",
+      "king",
+      "set-4"
+    ],
+    "difficulty": 1865,
+    "fen": "8/8/8/3k4/8/3K4/8/4P3 w - - 0 1",
+    "solutionMovesSAN": [
+      "e4+",
+      "Ke5",
+      "Ke3"
+    ],
+    "explanation": "L'opposition permet de pénétrer et soutenir le pion. (Puzzle #40)"
+  },
+  {
+    "type": "mate-in-1",
+    "tags": [
+      "checkmate",
+      "back-rank",
+      "set-5"
+    ],
+    "difficulty": 750,
+    "fen": "6k1/5ppp/8/8/8/8/5PPP/5RK1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Re1#"
+    ],
+    "explanation": "Les pièces lourdes contrôlent la dernière rangée noire. (Puzzle #41)"
+  },
+  {
+    "type": "mate-in-2",
+    "tags": [
+      "checkmate",
+      "pin",
+      "set-6"
+    ],
+    "difficulty": 810,
+    "fen": "r1bqk2r/pppp1ppp/2n5/4N3/3P4/8/PPP2PPP/R1BQKB1R w KQkq - 0 1",
+    "solutionMovesSAN": [
+      "Nxc6",
+      "dxc6",
+      "Qe2+"
+    ],
+    "explanation": "Le cavalier élimine le défenseur puis le roi est forcé dans un réseau. (Puzzle #42)"
+  },
+  {
+    "type": "tactic",
+    "tags": [
+      "fork",
+      "knight",
+      "set-1"
+    ],
+    "difficulty": 870,
+    "fen": "rnbqkb1r/ppp2ppp/3p1n2/4p3/2B1P3/5N2/PPPP1PPP/RNBQ1RK1 w kq - 0 1",
+    "solutionMovesSAN": [
+      "Nxe5",
+      "dxe5",
+      "Bxf7+"
+    ],
+    "explanation": "Un sacrifice temporaire permet une fourchette et récupère le matériel. (Puzzle #43)"
+  },
+  {
+    "type": "tactic",
+    "tags": [
+      "pin",
+      "bishop",
+      "set-2"
+    ],
+    "difficulty": 930,
+    "fen": "r2q1rk1/ppp2ppp/2n5/3n4/3P4/2P1BN2/PP3PPP/R2Q1RK1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Bxh7+",
+      "Kxh7",
+      "Ng5+"
+    ],
+    "explanation": "Le clouage sur la diagonale ouvre l'attaque contre le roi. (Puzzle #44)"
+  },
+  {
+    "type": "endgame",
+    "tags": [
+      "promotion",
+      "king",
+      "set-3"
+    ],
+    "difficulty": 990,
+    "fen": "8/2k5/2P5/8/8/3K4/8/8 w - - 0 1",
+    "solutionMovesSAN": [
+      "c7",
+      "Kxc7",
+      "Kc4"
+    ],
+    "explanation": "Créer un pion passé avancé force le roi adverse à se détourner. (Puzzle #45)"
+  },
+  {
+    "type": "defense",
+    "tags": [
+      "interference",
+      "queen",
+      "set-4"
+    ],
+    "difficulty": 1050,
+    "fen": "4rrk1/1pp2ppp/p1n5/3q4/3P4/2P1Q3/PP3PPP/4RRK1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Qxe8",
+      "Rxe8",
+      "Rxe8#"
+    ],
+    "explanation": "L'échange attire la tour et supprime la défense de la dernière rangée. (Puzzle #46)"
+  },
+  {
+    "type": "tactic",
+    "tags": [
+      "discovered-attack",
+      "rook",
+      "set-5"
+    ],
+    "difficulty": 1110,
+    "fen": "2r3k1/5ppp/1q6/1p6/3Q4/1P3P2/P4KPP/2R5 w - - 0 1",
+    "solutionMovesSAN": [
+      "Rxc8+",
+      "Rxc8",
+      "Qxb6"
+    ],
+    "explanation": "L'échec intermédiaire découvre une attaque sur la dame noire. (Puzzle #47)"
+  },
+  {
+    "type": "mate-in-3",
+    "tags": [
+      "checkmate",
+      "sacrifice",
+      "set-6"
+    ],
+    "difficulty": 1170,
+    "fen": "r1bq1rk1/pp3ppp/2n5/2bp4/8/2N1PN2/PP3PPP/R1BQ1RK1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Bxh7+",
+      "Kxh7",
+      "Ng5+",
+      "Kg8",
+      "Qh5"
+    ],
+    "explanation": "Le sacrifice attire le roi puis la dame et le cavalier coordonnent le mat. (Puzzle #48)"
+  },
+  {
+    "type": "tactic",
+    "tags": [
+      "skewer",
+      "bishop",
+      "set-1"
+    ],
+    "difficulty": 1230,
+    "fen": "4r1k1/1p3ppp/p1n5/3q4/3P4/2P1B3/PP3PPP/3Q1RK1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Bf4",
+      "Rxe1",
+      "Qxe1"
+    ],
+    "explanation": "Le fou crée une brochette et gagne du temps pour simplifier. (Puzzle #49)"
+  },
+  {
+    "type": "endgame",
+    "tags": [
+      "opposition",
+      "king",
+      "set-2"
+    ],
+    "difficulty": 1290,
+    "fen": "8/8/8/3k4/8/3K4/8/4P3 w - - 0 1",
+    "solutionMovesSAN": [
+      "e4+",
+      "Ke5",
+      "Ke3"
+    ],
+    "explanation": "L'opposition permet de pénétrer et soutenir le pion. (Puzzle #50)"
+  },
+  {
+    "type": "mate-in-1",
+    "tags": [
+      "checkmate",
+      "back-rank",
+      "set-3"
+    ],
+    "difficulty": 1350,
+    "fen": "6k1/5ppp/8/8/8/8/5PPP/5RK1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Re1#"
+    ],
+    "explanation": "Les pièces lourdes contrôlent la dernière rangée noire. (Puzzle #51)"
+  },
+  {
+    "type": "mate-in-2",
+    "tags": [
+      "checkmate",
+      "pin",
+      "set-4"
+    ],
+    "difficulty": 1410,
+    "fen": "r1bqk2r/pppp1ppp/2n5/4N3/3P4/8/PPP2PPP/R1BQKB1R w KQkq - 0 1",
+    "solutionMovesSAN": [
+      "Nxc6",
+      "dxc6",
+      "Qe2+"
+    ],
+    "explanation": "Le cavalier élimine le défenseur puis le roi est forcé dans un réseau. (Puzzle #52)"
+  },
+  {
+    "type": "tactic",
+    "tags": [
+      "fork",
+      "knight",
+      "set-5"
+    ],
+    "difficulty": 1470,
+    "fen": "rnbqkb1r/ppp2ppp/3p1n2/4p3/2B1P3/5N2/PPPP1PPP/RNBQ1RK1 w kq - 0 1",
+    "solutionMovesSAN": [
+      "Nxe5",
+      "dxe5",
+      "Bxf7+"
+    ],
+    "explanation": "Un sacrifice temporaire permet une fourchette et récupère le matériel. (Puzzle #53)"
+  },
+  {
+    "type": "tactic",
+    "tags": [
+      "pin",
+      "bishop",
+      "set-6"
+    ],
+    "difficulty": 1530,
+    "fen": "r2q1rk1/ppp2ppp/2n5/3n4/3P4/2P1BN2/PP3PPP/R2Q1RK1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Bxh7+",
+      "Kxh7",
+      "Ng5+"
+    ],
+    "explanation": "Le clouage sur la diagonale ouvre l'attaque contre le roi. (Puzzle #54)"
+  },
+  {
+    "type": "endgame",
+    "tags": [
+      "promotion",
+      "king",
+      "set-1"
+    ],
+    "difficulty": 1590,
+    "fen": "8/2k5/2P5/8/8/3K4/8/8 w - - 0 1",
+    "solutionMovesSAN": [
+      "c7",
+      "Kxc7",
+      "Kc4"
+    ],
+    "explanation": "Créer un pion passé avancé force le roi adverse à se détourner. (Puzzle #55)"
+  },
+  {
+    "type": "defense",
+    "tags": [
+      "interference",
+      "queen",
+      "set-2"
+    ],
+    "difficulty": 1650,
+    "fen": "4rrk1/1pp2ppp/p1n5/3q4/3P4/2P1Q3/PP3PPP/4RRK1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Qxe8",
+      "Rxe8",
+      "Rxe8#"
+    ],
+    "explanation": "L'échange attire la tour et supprime la défense de la dernière rangée. (Puzzle #56)"
+  },
+  {
+    "type": "tactic",
+    "tags": [
+      "discovered-attack",
+      "rook",
+      "set-3"
+    ],
+    "difficulty": 1710,
+    "fen": "2r3k1/5ppp/1q6/1p6/3Q4/1P3P2/P4KPP/2R5 w - - 0 1",
+    "solutionMovesSAN": [
+      "Rxc8+",
+      "Rxc8",
+      "Qxb6"
+    ],
+    "explanation": "L'échec intermédiaire découvre une attaque sur la dame noire. (Puzzle #57)"
+  },
+  {
+    "type": "mate-in-3",
+    "tags": [
+      "checkmate",
+      "sacrifice",
+      "set-4"
+    ],
+    "difficulty": 1770,
+    "fen": "r1bq1rk1/pp3ppp/2n5/2bp4/8/2N1PN2/PP3PPP/R1BQ1RK1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Bxh7+",
+      "Kxh7",
+      "Ng5+",
+      "Kg8",
+      "Qh5"
+    ],
+    "explanation": "Le sacrifice attire le roi puis la dame et le cavalier coordonnent le mat. (Puzzle #58)"
+  },
+  {
+    "type": "tactic",
+    "tags": [
+      "skewer",
+      "bishop",
+      "set-5"
+    ],
+    "difficulty": 1830,
+    "fen": "4r1k1/1p3ppp/p1n5/3q4/3P4/2P1B3/PP3PPP/3Q1RK1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Bf4",
+      "Rxe1",
+      "Qxe1"
+    ],
+    "explanation": "Le fou crée une brochette et gagne du temps pour simplifier. (Puzzle #59)"
+  },
+  {
+    "type": "endgame",
+    "tags": [
+      "opposition",
+      "king",
+      "set-6"
+    ],
+    "difficulty": 1890,
+    "fen": "8/8/8/3k4/8/3K4/8/4P3 w - - 0 1",
+    "solutionMovesSAN": [
+      "e4+",
+      "Ke5",
+      "Ke3"
+    ],
+    "explanation": "L'opposition permet de pénétrer et soutenir le pion. (Puzzle #60)"
+  },
+  {
+    "type": "mate-in-1",
+    "tags": [
+      "checkmate",
+      "back-rank",
+      "set-1"
+    ],
+    "difficulty": 775,
+    "fen": "6k1/5ppp/8/8/8/8/5PPP/5RK1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Re1#"
+    ],
+    "explanation": "Les pièces lourdes contrôlent la dernière rangée noire. (Puzzle #61)"
+  },
+  {
+    "type": "mate-in-2",
+    "tags": [
+      "checkmate",
+      "pin",
+      "set-2"
+    ],
+    "difficulty": 835,
+    "fen": "r1bqk2r/pppp1ppp/2n5/4N3/3P4/8/PPP2PPP/R1BQKB1R w KQkq - 0 1",
+    "solutionMovesSAN": [
+      "Nxc6",
+      "dxc6",
+      "Qe2+"
+    ],
+    "explanation": "Le cavalier élimine le défenseur puis le roi est forcé dans un réseau. (Puzzle #62)"
+  },
+  {
+    "type": "tactic",
+    "tags": [
+      "fork",
+      "knight",
+      "set-3"
+    ],
+    "difficulty": 895,
+    "fen": "rnbqkb1r/ppp2ppp/3p1n2/4p3/2B1P3/5N2/PPPP1PPP/RNBQ1RK1 w kq - 0 1",
+    "solutionMovesSAN": [
+      "Nxe5",
+      "dxe5",
+      "Bxf7+"
+    ],
+    "explanation": "Un sacrifice temporaire permet une fourchette et récupère le matériel. (Puzzle #63)"
+  },
+  {
+    "type": "tactic",
+    "tags": [
+      "pin",
+      "bishop",
+      "set-4"
+    ],
+    "difficulty": 955,
+    "fen": "r2q1rk1/ppp2ppp/2n5/3n4/3P4/2P1BN2/PP3PPP/R2Q1RK1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Bxh7+",
+      "Kxh7",
+      "Ng5+"
+    ],
+    "explanation": "Le clouage sur la diagonale ouvre l'attaque contre le roi. (Puzzle #64)"
+  },
+  {
+    "type": "endgame",
+    "tags": [
+      "promotion",
+      "king",
+      "set-5"
+    ],
+    "difficulty": 1015,
+    "fen": "8/2k5/2P5/8/8/3K4/8/8 w - - 0 1",
+    "solutionMovesSAN": [
+      "c7",
+      "Kxc7",
+      "Kc4"
+    ],
+    "explanation": "Créer un pion passé avancé force le roi adverse à se détourner. (Puzzle #65)"
+  },
+  {
+    "type": "defense",
+    "tags": [
+      "interference",
+      "queen",
+      "set-6"
+    ],
+    "difficulty": 1075,
+    "fen": "4rrk1/1pp2ppp/p1n5/3q4/3P4/2P1Q3/PP3PPP/4RRK1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Qxe8",
+      "Rxe8",
+      "Rxe8#"
+    ],
+    "explanation": "L'échange attire la tour et supprime la défense de la dernière rangée. (Puzzle #66)"
+  },
+  {
+    "type": "tactic",
+    "tags": [
+      "discovered-attack",
+      "rook",
+      "set-1"
+    ],
+    "difficulty": 1135,
+    "fen": "2r3k1/5ppp/1q6/1p6/3Q4/1P3P2/P4KPP/2R5 w - - 0 1",
+    "solutionMovesSAN": [
+      "Rxc8+",
+      "Rxc8",
+      "Qxb6"
+    ],
+    "explanation": "L'échec intermédiaire découvre une attaque sur la dame noire. (Puzzle #67)"
+  },
+  {
+    "type": "mate-in-3",
+    "tags": [
+      "checkmate",
+      "sacrifice",
+      "set-2"
+    ],
+    "difficulty": 1195,
+    "fen": "r1bq1rk1/pp3ppp/2n5/2bp4/8/2N1PN2/PP3PPP/R1BQ1RK1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Bxh7+",
+      "Kxh7",
+      "Ng5+",
+      "Kg8",
+      "Qh5"
+    ],
+    "explanation": "Le sacrifice attire le roi puis la dame et le cavalier coordonnent le mat. (Puzzle #68)"
+  },
+  {
+    "type": "tactic",
+    "tags": [
+      "skewer",
+      "bishop",
+      "set-3"
+    ],
+    "difficulty": 1255,
+    "fen": "4r1k1/1p3ppp/p1n5/3q4/3P4/2P1B3/PP3PPP/3Q1RK1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Bf4",
+      "Rxe1",
+      "Qxe1"
+    ],
+    "explanation": "Le fou crée une brochette et gagne du temps pour simplifier. (Puzzle #69)"
+  },
+  {
+    "type": "endgame",
+    "tags": [
+      "opposition",
+      "king",
+      "set-4"
+    ],
+    "difficulty": 1315,
+    "fen": "8/8/8/3k4/8/3K4/8/4P3 w - - 0 1",
+    "solutionMovesSAN": [
+      "e4+",
+      "Ke5",
+      "Ke3"
+    ],
+    "explanation": "L'opposition permet de pénétrer et soutenir le pion. (Puzzle #70)"
+  },
+  {
+    "type": "mate-in-1",
+    "tags": [
+      "checkmate",
+      "back-rank",
+      "set-5"
+    ],
+    "difficulty": 1375,
+    "fen": "6k1/5ppp/8/8/8/8/5PPP/5RK1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Re1#"
+    ],
+    "explanation": "Les pièces lourdes contrôlent la dernière rangée noire. (Puzzle #71)"
+  },
+  {
+    "type": "mate-in-2",
+    "tags": [
+      "checkmate",
+      "pin",
+      "set-6"
+    ],
+    "difficulty": 1435,
+    "fen": "r1bqk2r/pppp1ppp/2n5/4N3/3P4/8/PPP2PPP/R1BQKB1R w KQkq - 0 1",
+    "solutionMovesSAN": [
+      "Nxc6",
+      "dxc6",
+      "Qe2+"
+    ],
+    "explanation": "Le cavalier élimine le défenseur puis le roi est forcé dans un réseau. (Puzzle #72)"
+  },
+  {
+    "type": "tactic",
+    "tags": [
+      "fork",
+      "knight",
+      "set-1"
+    ],
+    "difficulty": 1495,
+    "fen": "rnbqkb1r/ppp2ppp/3p1n2/4p3/2B1P3/5N2/PPPP1PPP/RNBQ1RK1 w kq - 0 1",
+    "solutionMovesSAN": [
+      "Nxe5",
+      "dxe5",
+      "Bxf7+"
+    ],
+    "explanation": "Un sacrifice temporaire permet une fourchette et récupère le matériel. (Puzzle #73)"
+  },
+  {
+    "type": "tactic",
+    "tags": [
+      "pin",
+      "bishop",
+      "set-2"
+    ],
+    "difficulty": 1555,
+    "fen": "r2q1rk1/ppp2ppp/2n5/3n4/3P4/2P1BN2/PP3PPP/R2Q1RK1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Bxh7+",
+      "Kxh7",
+      "Ng5+"
+    ],
+    "explanation": "Le clouage sur la diagonale ouvre l'attaque contre le roi. (Puzzle #74)"
+  },
+  {
+    "type": "endgame",
+    "tags": [
+      "promotion",
+      "king",
+      "set-3"
+    ],
+    "difficulty": 1615,
+    "fen": "8/2k5/2P5/8/8/3K4/8/8 w - - 0 1",
+    "solutionMovesSAN": [
+      "c7",
+      "Kxc7",
+      "Kc4"
+    ],
+    "explanation": "Créer un pion passé avancé force le roi adverse à se détourner. (Puzzle #75)"
+  },
+  {
+    "type": "defense",
+    "tags": [
+      "interference",
+      "queen",
+      "set-4"
+    ],
+    "difficulty": 1675,
+    "fen": "4rrk1/1pp2ppp/p1n5/3q4/3P4/2P1Q3/PP3PPP/4RRK1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Qxe8",
+      "Rxe8",
+      "Rxe8#"
+    ],
+    "explanation": "L'échange attire la tour et supprime la défense de la dernière rangée. (Puzzle #76)"
+  },
+  {
+    "type": "tactic",
+    "tags": [
+      "discovered-attack",
+      "rook",
+      "set-5"
+    ],
+    "difficulty": 1735,
+    "fen": "2r3k1/5ppp/1q6/1p6/3Q4/1P3P2/P4KPP/2R5 w - - 0 1",
+    "solutionMovesSAN": [
+      "Rxc8+",
+      "Rxc8",
+      "Qxb6"
+    ],
+    "explanation": "L'échec intermédiaire découvre une attaque sur la dame noire. (Puzzle #77)"
+  },
+  {
+    "type": "mate-in-3",
+    "tags": [
+      "checkmate",
+      "sacrifice",
+      "set-6"
+    ],
+    "difficulty": 1795,
+    "fen": "r1bq1rk1/pp3ppp/2n5/2bp4/8/2N1PN2/PP3PPP/R1BQ1RK1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Bxh7+",
+      "Kxh7",
+      "Ng5+",
+      "Kg8",
+      "Qh5"
+    ],
+    "explanation": "Le sacrifice attire le roi puis la dame et le cavalier coordonnent le mat. (Puzzle #78)"
+  },
+  {
+    "type": "tactic",
+    "tags": [
+      "skewer",
+      "bishop",
+      "set-1"
+    ],
+    "difficulty": 1855,
+    "fen": "4r1k1/1p3ppp/p1n5/3q4/3P4/2P1B3/PP3PPP/3Q1RK1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Bf4",
+      "Rxe1",
+      "Qxe1"
+    ],
+    "explanation": "Le fou crée une brochette et gagne du temps pour simplifier. (Puzzle #79)"
+  },
+  {
+    "type": "endgame",
+    "tags": [
+      "opposition",
+      "king",
+      "set-2"
+    ],
+    "difficulty": 1915,
+    "fen": "8/8/8/3k4/8/3K4/8/4P3 w - - 0 1",
+    "solutionMovesSAN": [
+      "e4+",
+      "Ke5",
+      "Ke3"
+    ],
+    "explanation": "L'opposition permet de pénétrer et soutenir le pion. (Puzzle #80)"
+  },
+  {
+    "type": "mate-in-1",
+    "tags": [
+      "checkmate",
+      "back-rank",
+      "set-3"
+    ],
+    "difficulty": 800,
+    "fen": "6k1/5ppp/8/8/8/8/5PPP/5RK1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Re1#"
+    ],
+    "explanation": "Les pièces lourdes contrôlent la dernière rangée noire. (Puzzle #81)"
+  },
+  {
+    "type": "mate-in-2",
+    "tags": [
+      "checkmate",
+      "pin",
+      "set-4"
+    ],
+    "difficulty": 860,
+    "fen": "r1bqk2r/pppp1ppp/2n5/4N3/3P4/8/PPP2PPP/R1BQKB1R w KQkq - 0 1",
+    "solutionMovesSAN": [
+      "Nxc6",
+      "dxc6",
+      "Qe2+"
+    ],
+    "explanation": "Le cavalier élimine le défenseur puis le roi est forcé dans un réseau. (Puzzle #82)"
+  },
+  {
+    "type": "tactic",
+    "tags": [
+      "fork",
+      "knight",
+      "set-5"
+    ],
+    "difficulty": 920,
+    "fen": "rnbqkb1r/ppp2ppp/3p1n2/4p3/2B1P3/5N2/PPPP1PPP/RNBQ1RK1 w kq - 0 1",
+    "solutionMovesSAN": [
+      "Nxe5",
+      "dxe5",
+      "Bxf7+"
+    ],
+    "explanation": "Un sacrifice temporaire permet une fourchette et récupère le matériel. (Puzzle #83)"
+  },
+  {
+    "type": "tactic",
+    "tags": [
+      "pin",
+      "bishop",
+      "set-6"
+    ],
+    "difficulty": 980,
+    "fen": "r2q1rk1/ppp2ppp/2n5/3n4/3P4/2P1BN2/PP3PPP/R2Q1RK1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Bxh7+",
+      "Kxh7",
+      "Ng5+"
+    ],
+    "explanation": "Le clouage sur la diagonale ouvre l'attaque contre le roi. (Puzzle #84)"
+  },
+  {
+    "type": "endgame",
+    "tags": [
+      "promotion",
+      "king",
+      "set-1"
+    ],
+    "difficulty": 1040,
+    "fen": "8/2k5/2P5/8/8/3K4/8/8 w - - 0 1",
+    "solutionMovesSAN": [
+      "c7",
+      "Kxc7",
+      "Kc4"
+    ],
+    "explanation": "Créer un pion passé avancé force le roi adverse à se détourner. (Puzzle #85)"
+  },
+  {
+    "type": "defense",
+    "tags": [
+      "interference",
+      "queen",
+      "set-2"
+    ],
+    "difficulty": 1100,
+    "fen": "4rrk1/1pp2ppp/p1n5/3q4/3P4/2P1Q3/PP3PPP/4RRK1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Qxe8",
+      "Rxe8",
+      "Rxe8#"
+    ],
+    "explanation": "L'échange attire la tour et supprime la défense de la dernière rangée. (Puzzle #86)"
+  },
+  {
+    "type": "tactic",
+    "tags": [
+      "discovered-attack",
+      "rook",
+      "set-3"
+    ],
+    "difficulty": 1160,
+    "fen": "2r3k1/5ppp/1q6/1p6/3Q4/1P3P2/P4KPP/2R5 w - - 0 1",
+    "solutionMovesSAN": [
+      "Rxc8+",
+      "Rxc8",
+      "Qxb6"
+    ],
+    "explanation": "L'échec intermédiaire découvre une attaque sur la dame noire. (Puzzle #87)"
+  },
+  {
+    "type": "mate-in-3",
+    "tags": [
+      "checkmate",
+      "sacrifice",
+      "set-4"
+    ],
+    "difficulty": 1220,
+    "fen": "r1bq1rk1/pp3ppp/2n5/2bp4/8/2N1PN2/PP3PPP/R1BQ1RK1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Bxh7+",
+      "Kxh7",
+      "Ng5+",
+      "Kg8",
+      "Qh5"
+    ],
+    "explanation": "Le sacrifice attire le roi puis la dame et le cavalier coordonnent le mat. (Puzzle #88)"
+  },
+  {
+    "type": "tactic",
+    "tags": [
+      "skewer",
+      "bishop",
+      "set-5"
+    ],
+    "difficulty": 1280,
+    "fen": "4r1k1/1p3ppp/p1n5/3q4/3P4/2P1B3/PP3PPP/3Q1RK1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Bf4",
+      "Rxe1",
+      "Qxe1"
+    ],
+    "explanation": "Le fou crée une brochette et gagne du temps pour simplifier. (Puzzle #89)"
+  },
+  {
+    "type": "endgame",
+    "tags": [
+      "opposition",
+      "king",
+      "set-6"
+    ],
+    "difficulty": 1340,
+    "fen": "8/8/8/3k4/8/3K4/8/4P3 w - - 0 1",
+    "solutionMovesSAN": [
+      "e4+",
+      "Ke5",
+      "Ke3"
+    ],
+    "explanation": "L'opposition permet de pénétrer et soutenir le pion. (Puzzle #90)"
+  },
+  {
+    "type": "mate-in-1",
+    "tags": [
+      "checkmate",
+      "back-rank",
+      "set-1"
+    ],
+    "difficulty": 1400,
+    "fen": "6k1/5ppp/8/8/8/8/5PPP/5RK1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Re1#"
+    ],
+    "explanation": "Les pièces lourdes contrôlent la dernière rangée noire. (Puzzle #91)"
+  },
+  {
+    "type": "mate-in-2",
+    "tags": [
+      "checkmate",
+      "pin",
+      "set-2"
+    ],
+    "difficulty": 1460,
+    "fen": "r1bqk2r/pppp1ppp/2n5/4N3/3P4/8/PPP2PPP/R1BQKB1R w KQkq - 0 1",
+    "solutionMovesSAN": [
+      "Nxc6",
+      "dxc6",
+      "Qe2+"
+    ],
+    "explanation": "Le cavalier élimine le défenseur puis le roi est forcé dans un réseau. (Puzzle #92)"
+  },
+  {
+    "type": "tactic",
+    "tags": [
+      "fork",
+      "knight",
+      "set-3"
+    ],
+    "difficulty": 1520,
+    "fen": "rnbqkb1r/ppp2ppp/3p1n2/4p3/2B1P3/5N2/PPPP1PPP/RNBQ1RK1 w kq - 0 1",
+    "solutionMovesSAN": [
+      "Nxe5",
+      "dxe5",
+      "Bxf7+"
+    ],
+    "explanation": "Un sacrifice temporaire permet une fourchette et récupère le matériel. (Puzzle #93)"
+  },
+  {
+    "type": "tactic",
+    "tags": [
+      "pin",
+      "bishop",
+      "set-4"
+    ],
+    "difficulty": 1580,
+    "fen": "r2q1rk1/ppp2ppp/2n5/3n4/3P4/2P1BN2/PP3PPP/R2Q1RK1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Bxh7+",
+      "Kxh7",
+      "Ng5+"
+    ],
+    "explanation": "Le clouage sur la diagonale ouvre l'attaque contre le roi. (Puzzle #94)"
+  },
+  {
+    "type": "endgame",
+    "tags": [
+      "promotion",
+      "king",
+      "set-5"
+    ],
+    "difficulty": 1640,
+    "fen": "8/2k5/2P5/8/8/3K4/8/8 w - - 0 1",
+    "solutionMovesSAN": [
+      "c7",
+      "Kxc7",
+      "Kc4"
+    ],
+    "explanation": "Créer un pion passé avancé force le roi adverse à se détourner. (Puzzle #95)"
+  },
+  {
+    "type": "defense",
+    "tags": [
+      "interference",
+      "queen",
+      "set-6"
+    ],
+    "difficulty": 1700,
+    "fen": "4rrk1/1pp2ppp/p1n5/3q4/3P4/2P1Q3/PP3PPP/4RRK1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Qxe8",
+      "Rxe8",
+      "Rxe8#"
+    ],
+    "explanation": "L'échange attire la tour et supprime la défense de la dernière rangée. (Puzzle #96)"
+  },
+  {
+    "type": "tactic",
+    "tags": [
+      "discovered-attack",
+      "rook",
+      "set-1"
+    ],
+    "difficulty": 1760,
+    "fen": "2r3k1/5ppp/1q6/1p6/3Q4/1P3P2/P4KPP/2R5 w - - 0 1",
+    "solutionMovesSAN": [
+      "Rxc8+",
+      "Rxc8",
+      "Qxb6"
+    ],
+    "explanation": "L'échec intermédiaire découvre une attaque sur la dame noire. (Puzzle #97)"
+  },
+  {
+    "type": "mate-in-3",
+    "tags": [
+      "checkmate",
+      "sacrifice",
+      "set-2"
+    ],
+    "difficulty": 1820,
+    "fen": "r1bq1rk1/pp3ppp/2n5/2bp4/8/2N1PN2/PP3PPP/R1BQ1RK1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Bxh7+",
+      "Kxh7",
+      "Ng5+",
+      "Kg8",
+      "Qh5"
+    ],
+    "explanation": "Le sacrifice attire le roi puis la dame et le cavalier coordonnent le mat. (Puzzle #98)"
+  },
+  {
+    "type": "tactic",
+    "tags": [
+      "skewer",
+      "bishop",
+      "set-3"
+    ],
+    "difficulty": 1880,
+    "fen": "4r1k1/1p3ppp/p1n5/3q4/3P4/2P1B3/PP3PPP/3Q1RK1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Bf4",
+      "Rxe1",
+      "Qxe1"
+    ],
+    "explanation": "Le fou crée une brochette et gagne du temps pour simplifier. (Puzzle #99)"
+  },
+  {
+    "type": "endgame",
+    "tags": [
+      "opposition",
+      "king",
+      "set-4"
+    ],
+    "difficulty": 1940,
+    "fen": "8/8/8/3k4/8/3K4/8/4P3 w - - 0 1",
+    "solutionMovesSAN": [
+      "e4+",
+      "Ke5",
+      "Ke3"
+    ],
+    "explanation": "L'opposition permet de pénétrer et soutenir le pion. (Puzzle #100)"
+  },
+  {
+    "type": "mate-in-1",
+    "tags": [
+      "checkmate",
+      "back-rank",
+      "set-5"
+    ],
+    "difficulty": 825,
+    "fen": "6k1/5ppp/8/8/8/8/5PPP/5RK1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Re1#"
+    ],
+    "explanation": "Les pièces lourdes contrôlent la dernière rangée noire. (Puzzle #101)"
+  },
+  {
+    "type": "mate-in-2",
+    "tags": [
+      "checkmate",
+      "pin",
+      "set-6"
+    ],
+    "difficulty": 885,
+    "fen": "r1bqk2r/pppp1ppp/2n5/4N3/3P4/8/PPP2PPP/R1BQKB1R w KQkq - 0 1",
+    "solutionMovesSAN": [
+      "Nxc6",
+      "dxc6",
+      "Qe2+"
+    ],
+    "explanation": "Le cavalier élimine le défenseur puis le roi est forcé dans un réseau. (Puzzle #102)"
+  },
+  {
+    "type": "tactic",
+    "tags": [
+      "fork",
+      "knight",
+      "set-1"
+    ],
+    "difficulty": 945,
+    "fen": "rnbqkb1r/ppp2ppp/3p1n2/4p3/2B1P3/5N2/PPPP1PPP/RNBQ1RK1 w kq - 0 1",
+    "solutionMovesSAN": [
+      "Nxe5",
+      "dxe5",
+      "Bxf7+"
+    ],
+    "explanation": "Un sacrifice temporaire permet une fourchette et récupère le matériel. (Puzzle #103)"
+  },
+  {
+    "type": "tactic",
+    "tags": [
+      "pin",
+      "bishop",
+      "set-2"
+    ],
+    "difficulty": 1005,
+    "fen": "r2q1rk1/ppp2ppp/2n5/3n4/3P4/2P1BN2/PP3PPP/R2Q1RK1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Bxh7+",
+      "Kxh7",
+      "Ng5+"
+    ],
+    "explanation": "Le clouage sur la diagonale ouvre l'attaque contre le roi. (Puzzle #104)"
+  },
+  {
+    "type": "endgame",
+    "tags": [
+      "promotion",
+      "king",
+      "set-3"
+    ],
+    "difficulty": 1065,
+    "fen": "8/2k5/2P5/8/8/3K4/8/8 w - - 0 1",
+    "solutionMovesSAN": [
+      "c7",
+      "Kxc7",
+      "Kc4"
+    ],
+    "explanation": "Créer un pion passé avancé force le roi adverse à se détourner. (Puzzle #105)"
+  },
+  {
+    "type": "defense",
+    "tags": [
+      "interference",
+      "queen",
+      "set-4"
+    ],
+    "difficulty": 1125,
+    "fen": "4rrk1/1pp2ppp/p1n5/3q4/3P4/2P1Q3/PP3PPP/4RRK1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Qxe8",
+      "Rxe8",
+      "Rxe8#"
+    ],
+    "explanation": "L'échange attire la tour et supprime la défense de la dernière rangée. (Puzzle #106)"
+  },
+  {
+    "type": "tactic",
+    "tags": [
+      "discovered-attack",
+      "rook",
+      "set-5"
+    ],
+    "difficulty": 1185,
+    "fen": "2r3k1/5ppp/1q6/1p6/3Q4/1P3P2/P4KPP/2R5 w - - 0 1",
+    "solutionMovesSAN": [
+      "Rxc8+",
+      "Rxc8",
+      "Qxb6"
+    ],
+    "explanation": "L'échec intermédiaire découvre une attaque sur la dame noire. (Puzzle #107)"
+  },
+  {
+    "type": "mate-in-3",
+    "tags": [
+      "checkmate",
+      "sacrifice",
+      "set-6"
+    ],
+    "difficulty": 1245,
+    "fen": "r1bq1rk1/pp3ppp/2n5/2bp4/8/2N1PN2/PP3PPP/R1BQ1RK1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Bxh7+",
+      "Kxh7",
+      "Ng5+",
+      "Kg8",
+      "Qh5"
+    ],
+    "explanation": "Le sacrifice attire le roi puis la dame et le cavalier coordonnent le mat. (Puzzle #108)"
+  },
+  {
+    "type": "tactic",
+    "tags": [
+      "skewer",
+      "bishop",
+      "set-1"
+    ],
+    "difficulty": 1305,
+    "fen": "4r1k1/1p3ppp/p1n5/3q4/3P4/2P1B3/PP3PPP/3Q1RK1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Bf4",
+      "Rxe1",
+      "Qxe1"
+    ],
+    "explanation": "Le fou crée une brochette et gagne du temps pour simplifier. (Puzzle #109)"
+  },
+  {
+    "type": "endgame",
+    "tags": [
+      "opposition",
+      "king",
+      "set-2"
+    ],
+    "difficulty": 1365,
+    "fen": "8/8/8/3k4/8/3K4/8/4P3 w - - 0 1",
+    "solutionMovesSAN": [
+      "e4+",
+      "Ke5",
+      "Ke3"
+    ],
+    "explanation": "L'opposition permet de pénétrer et soutenir le pion. (Puzzle #110)"
+  },
+  {
+    "type": "mate-in-1",
+    "tags": [
+      "checkmate",
+      "back-rank",
+      "set-3"
+    ],
+    "difficulty": 1425,
+    "fen": "6k1/5ppp/8/8/8/8/5PPP/5RK1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Re1#"
+    ],
+    "explanation": "Les pièces lourdes contrôlent la dernière rangée noire. (Puzzle #111)"
+  },
+  {
+    "type": "mate-in-2",
+    "tags": [
+      "checkmate",
+      "pin",
+      "set-4"
+    ],
+    "difficulty": 1485,
+    "fen": "r1bqk2r/pppp1ppp/2n5/4N3/3P4/8/PPP2PPP/R1BQKB1R w KQkq - 0 1",
+    "solutionMovesSAN": [
+      "Nxc6",
+      "dxc6",
+      "Qe2+"
+    ],
+    "explanation": "Le cavalier élimine le défenseur puis le roi est forcé dans un réseau. (Puzzle #112)"
+  },
+  {
+    "type": "tactic",
+    "tags": [
+      "fork",
+      "knight",
+      "set-5"
+    ],
+    "difficulty": 1545,
+    "fen": "rnbqkb1r/ppp2ppp/3p1n2/4p3/2B1P3/5N2/PPPP1PPP/RNBQ1RK1 w kq - 0 1",
+    "solutionMovesSAN": [
+      "Nxe5",
+      "dxe5",
+      "Bxf7+"
+    ],
+    "explanation": "Un sacrifice temporaire permet une fourchette et récupère le matériel. (Puzzle #113)"
+  },
+  {
+    "type": "tactic",
+    "tags": [
+      "pin",
+      "bishop",
+      "set-6"
+    ],
+    "difficulty": 1605,
+    "fen": "r2q1rk1/ppp2ppp/2n5/3n4/3P4/2P1BN2/PP3PPP/R2Q1RK1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Bxh7+",
+      "Kxh7",
+      "Ng5+"
+    ],
+    "explanation": "Le clouage sur la diagonale ouvre l'attaque contre le roi. (Puzzle #114)"
+  },
+  {
+    "type": "endgame",
+    "tags": [
+      "promotion",
+      "king",
+      "set-1"
+    ],
+    "difficulty": 1665,
+    "fen": "8/2k5/2P5/8/8/3K4/8/8 w - - 0 1",
+    "solutionMovesSAN": [
+      "c7",
+      "Kxc7",
+      "Kc4"
+    ],
+    "explanation": "Créer un pion passé avancé force le roi adverse à se détourner. (Puzzle #115)"
+  },
+  {
+    "type": "defense",
+    "tags": [
+      "interference",
+      "queen",
+      "set-2"
+    ],
+    "difficulty": 1725,
+    "fen": "4rrk1/1pp2ppp/p1n5/3q4/3P4/2P1Q3/PP3PPP/4RRK1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Qxe8",
+      "Rxe8",
+      "Rxe8#"
+    ],
+    "explanation": "L'échange attire la tour et supprime la défense de la dernière rangée. (Puzzle #116)"
+  },
+  {
+    "type": "tactic",
+    "tags": [
+      "discovered-attack",
+      "rook",
+      "set-3"
+    ],
+    "difficulty": 1785,
+    "fen": "2r3k1/5ppp/1q6/1p6/3Q4/1P3P2/P4KPP/2R5 w - - 0 1",
+    "solutionMovesSAN": [
+      "Rxc8+",
+      "Rxc8",
+      "Qxb6"
+    ],
+    "explanation": "L'échec intermédiaire découvre une attaque sur la dame noire. (Puzzle #117)"
+  },
+  {
+    "type": "mate-in-3",
+    "tags": [
+      "checkmate",
+      "sacrifice",
+      "set-4"
+    ],
+    "difficulty": 1845,
+    "fen": "r1bq1rk1/pp3ppp/2n5/2bp4/8/2N1PN2/PP3PPP/R1BQ1RK1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Bxh7+",
+      "Kxh7",
+      "Ng5+",
+      "Kg8",
+      "Qh5"
+    ],
+    "explanation": "Le sacrifice attire le roi puis la dame et le cavalier coordonnent le mat. (Puzzle #118)"
+  },
+  {
+    "type": "tactic",
+    "tags": [
+      "skewer",
+      "bishop",
+      "set-5"
+    ],
+    "difficulty": 1905,
+    "fen": "4r1k1/1p3ppp/p1n5/3q4/3P4/2P1B3/PP3PPP/3Q1RK1 w - - 0 1",
+    "solutionMovesSAN": [
+      "Bf4",
+      "Rxe1",
+      "Qxe1"
+    ],
+    "explanation": "Le fou crée une brochette et gagne du temps pour simplifier. (Puzzle #119)"
+  },
+  {
+    "type": "endgame",
+    "tags": [
+      "opposition",
+      "king",
+      "set-6"
+    ],
+    "difficulty": 1965,
+    "fen": "8/8/8/3k4/8/3K4/8/4P3 w - - 0 1",
+    "solutionMovesSAN": [
+      "e4+",
+      "Ke5",
+      "Ke3"
+    ],
+    "explanation": "L'opposition permet de pénétrer et soutenir le pion. (Puzzle #120)"
+  }
+]
