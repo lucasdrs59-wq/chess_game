@@ -30,11 +30,7 @@ export function extractTags(pgn: string): Record<string, string> {
 
 export function parsePgnGame(pgn: string): ParsedPgnGame {
   const chess = new Chess();
-  const loaded = chess.loadPgn(pgn, { strict: false });
-
-  if (!loaded) {
-    throw new Error('PGN invalide: impossible de charger la partie.');
-  }
+  chess.loadPgn(pgn, { strict: false });
 
   const replay = new Chess();
   const moves = chess.history();

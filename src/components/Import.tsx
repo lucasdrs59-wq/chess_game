@@ -58,11 +58,13 @@ export const Import = () => {
       : 0;
 
   return (
-    <section>
-      <h2>Import Chess.com</h2>
+    <section className="content-page" aria-labelledby="import-heading">
+      <p className="eyebrow">Source publique · Parties terminées</p>
+      <h1 id="import-heading">Importer depuis Chess.com</h1>
+      <p className="lead">Les trois mois les plus récents sont analysés. Les doublons sont ignorés.</p>
 
-      <form onSubmit={handleSubmit}>
-        <label htmlFor="username">Username</label>
+      <form className="import-form" onSubmit={handleSubmit}>
+        <label htmlFor="username">Identifiant Chess.com</label>
         <input
           id="username"
           type="text"
@@ -77,15 +79,19 @@ export const Import = () => {
         </button>
       </form>
 
-      <div aria-live="polite">
-        <p>Progression: {progressPercentage}%</p>
-        <p>Mois traités: {progress.currentMonth}/{progress.totalMonths}</p>
-        <p>Importées: {progress.imported}</p>
-        <p>Ignorées: {progress.skipped}</p>
-        <p>Erreurs: {progress.errors}</p>
+      <div className="progress-card" aria-live="polite">
+        <div className="progress-track" aria-hidden="true">
+          <span style={{ width: `${progressPercentage}%` }} />
+        </div>
+        <p><strong>{progressPercentage} %</strong> · {progress.currentMonth}/{progress.totalMonths} mois traités</p>
+        <div className="progress-metrics">
+          <span><strong>{progress.imported}</strong> importées</span>
+          <span><strong>{progress.skipped}</strong> ignorées</span>
+          <span><strong>{progress.errors}</strong> erreurs</span>
+        </div>
       </div>
 
-      {statusMessage ? <p>{statusMessage}</p> : null}
+      {statusMessage ? <p className="status-message">{statusMessage}</p> : null}
     </section>
   );
 };
