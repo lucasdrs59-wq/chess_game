@@ -1,17 +1,14 @@
-import React from 'react';
-
-export default function Settings(): JSX.Element {
+export default function Settings() {
   return (
-    <section aria-labelledby="settings-title">
-      <h1 id="settings-title">Settings</h1>
-
-      <p>Analyse après la partie uniquement.</p>
-      <p>Interdiction d’analyse live.</p>
-
-      <ul>
-        <li>Pas d’entrée FEN libre.</li>
-        <li>Aucun mode live.</li>
-        <li>Pas de capture/overlay/lecture de fenêtre.</li>
+    <section className="content-page" aria-labelledby="settings-title">
+      <p className="eyebrow">Contrat produit</p>
+      <h1 id="settings-title">Règles et confidentialité</h1>
+      <p className="lead">Le fair-play n'est pas une option : il structure le produit.</p>
+      <ul className="rule-list">
+        <li><strong>Post-partie uniquement.</strong> Une partie doit être terminée avant import.</li>
+        <li><strong>Aucune position arbitraire.</strong> Pas de moteur de « meilleur coup » à la demande.</li>
+        <li><strong>Aucune surveillance.</strong> Pas de capture, overlay ou lecture de fenêtre.</li>
+        <li><strong>Données locales.</strong> L'historique reste dans le navigateur de l'utilisateur.</li>
       </ul>
     </section>
   );

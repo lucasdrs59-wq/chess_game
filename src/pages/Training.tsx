@@ -81,29 +81,37 @@ export default function Training() {
 
   if (!puzzle) {
     return (
-      <section>
-        <h1>Training</h1>
+      <section className="content-page">
+        <h1>Entraînement</h1>
         <p>Aucun puzzle disponible pour le moment.</p>
       </section>
     );
   }
 
   return (
-    <section>
-      <h1>Training</h1>
-      <p>Puzzle #{puzzle.id}</p>
-      <p>FEN: {puzzle.fen}</p>
+    <section className="content-page" aria-labelledby="training-heading">
+      <p className="eyebrow">Répétition espacée</p>
+      <h1 id="training-heading">Entraînement ciblé</h1>
+      <div className="puzzle-card">
+        <div><span>Puzzle</span><strong>#{puzzle.id}</strong></div>
+        <div><span>Difficulté</span><strong>{puzzle.difficulty}</strong></div>
+        <div><span>Thèmes</span><strong>{puzzle.tags.join(" · ")}</strong></div>
+      </div>
+      <details className="fen-details">
+        <summary>Position FEN</summary>
+        <code>{puzzle.fen}</code>
+      </details>
 
-      <label htmlFor="hint-level">Indice:</label>
+      <label htmlFor="hint-level">Niveau d'indice</label>
       <select
         id="hint-level"
         value={hintLevel}
         onChange={(event) => setHintLevel(event.target.value as HintLevel)}
       >
-        <option value="none">none</option>
-        <option value="light">light</option>
-        <option value="standard">standard</option>
-        <option value="full">full</option>
+        <option value="none">Aucun</option>
+        <option value="light">Léger</option>
+        <option value="standard">Standard</option>
+        <option value="full">Complet</option>
       </select>
 
       <p>{hintText}</p>
@@ -119,8 +127,8 @@ export default function Training() {
         </div>
       )}
 
-      <div>
-        <button type="button" onClick={() => onResult("fail")}>Échec</button>
+      <div className="result-actions">
+        <button type="button" className="secondary" onClick={() => onResult("fail")}>À revoir</button>
         <button type="button" onClick={() => onResult("ok")}>Réussi</button>
       </div>
     </section>

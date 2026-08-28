@@ -1,4 +1,4 @@
-import { Chess, PieceSymbol, Square } from 'chess.js';
+import { Chess, type Move, type PieceSymbol, type Square } from "chess.js";
 
 export type HeuristicFinding = {
   momentType: 'hung_piece' | 'bad_trade' | 'opening_principle' | 'king_safety';
@@ -16,13 +16,28 @@ const PIECE_VALUES: Record<PieceSymbol, number> = {
 
 const OPENING_LIMIT = 12;
 
+const positionKey = (fen: string): string => fen.split(" ").slice(0, 4).join(" ");
+
+const findTransitionMove = (fenBefore: string, fenAfter: string): Move | null => {
+  const before = new Chess(fenBefore);
+
+  for (const candidate of before.moves({ verbose: true })) {
+    const replay = new Chess(fenBefore);
+    const move = replay.move(candidate);
+    if (positionKey(replay.fen()) === positionKey(fenAfter)) {
+      return move;
+    }
+  }
+
+  return null;
+};
+
 export function detectHungPiece(
   fenBefore: string,
   fenAfter: string,
 ): HeuristicFinding | null {
-  const before = new Chess(fenBefore);
   const after = new Chess(fenAfter);
-  const lastMove = after.history({ verbose: true }).at(-1);
+  const lastMove = findTransitionMove(fenBefore, fenAfter);
 
   if (!lastMove) {
     return null;
@@ -52,26 +67,20 @@ export function detectBadTrade(
   fenBefore: string,
   fenAfter: string,
 ): HeuristicFinding | null {
-  const before = new Chess(fenBefore);
   const after = new Chess(fenAfter);
-  const lastMove = after.history({ verbose: true }).at(-1);
+  const lastMove = findTransitionMove(fenBefore, fenAfter);
 
   if (!lastMove?.captured) {
     return null;
   }
 
-  const movedPiece = before.get(lastMove.from);
-  if (!movedPiece) {
-    return null;
-  }
-
-  const gain = PIECE_VALUES[lastMove.captured] - PIECE_VALUES[movedPiece.type];
-  const attacked = after.isAttacked(lastMove.to as Square, movedPiece.color === 'w' ? 'b' : 'w');
+  const gain = PIECE_VALUES[lastMove.captured] - PIECE_VALUES[lastMove.piece];
+  const attacked = after.isAttacked(lastMove.to as Square, lastMove.color === "w" ? "b" : "w");
 
   if (gain <= -2 && attacked) {
     return {
       momentType: 'bad_trade',
-      note: `Échange défavorable sur ${lastMove.to}: ${movedPiece.type.toUpperCase()} contre ${lastMove.captured.toUpperCase()}.`,
+      note: `Échange défavorable sur ${lastMove.to}: ${lastMove.piece.toUpperCase()} contre ${lastMove.captured.toUpperCase()}.`,
     };
   }
 
@@ -87,9 +96,7 @@ export function detectOpeningPrinciple(
     return null;
   }
 
-  const after = new Chess(fenAfter);
-  const moves = after.history({ verbose: true });
-  const lastMove = moves.at(-1);
+  const lastMove = findTransitionMove(fenBefore, fenAfter);
   if (!lastMove) {
     return null;
   }
@@ -101,23 +108,11 @@ export function detectOpeningPrinciple(
     };
   }
 
-  const movedTwiceEarly =
-    moves
-      .slice(0, -1)
-      .filter((move) => move.color === lastMove.color && move.from === lastMove.from).length > 0;
-
-  if (movedTwiceEarly && ['n', 'b'].includes(lastMove.piece)) {
-    return {
-      momentType: 'opening_principle',
-      note: `Même pièce mineure rejouée trop tôt (${lastMove.san}) au lieu de développer le reste.`,
-    };
-  }
-
   return null;
 }
 
 export function detectKingSafety(
-  fenBefore: string,
+  _fenBefore: string,
   fenAfter: string,
   plyIndex: number,
 ): HeuristicFinding | null {
