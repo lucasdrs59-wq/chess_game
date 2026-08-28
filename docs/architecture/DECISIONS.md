@@ -3,7 +3,7 @@
 ## ADR-001 — Application locale
 
 **Décision :** exécuter l’application dans le navigateur et stocker les données
-avec `localStorage` et IndexedDB.
+avec `localStorage` derrière des adaptateurs dédiés.
 
 **Pourquoi :** le prototype ne nécessite ni compte, ni donnée partagée, ni
 secret serveur. Cette architecture réduit les coûts et protège les historiques.
@@ -16,13 +16,13 @@ secret serveur. Cette architecture réduit les coûts et protège les historique
 **Pourquoi :** le produit doit favoriser l’apprentissage sans fournir
 d’assistance contraire au fair-play des plateformes.
 
-## ADR-003 — Heuristiques explicables
+## ADR-003 — Fonctionnalités verticales
 
-**Décision :** détecter des thèmes pédagogiques par des règles lisibles avant
-d’envisager un moteur d’analyse hors ligne.
+**Décision :** regrouper interface, logique métier, stockage et tests sous
+`src/features/<fonctionnalité>/`.
 
-**Conséquence :** chaque résultat est interprétable, mais sa précision doit être
-mesurée et ne peut être présentée comme une évaluation exhaustive.
+**Pourquoi :** une fonctionnalité peut évoluer ou être supprimée sans laisser
+des dossiers génériques remplis de modules orphelins.
 
 ## ADR-004 — Données d’entraînement testées
 

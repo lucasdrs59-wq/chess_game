@@ -1,4 +1,4 @@
-import trainingPack from "../data/training-pack.json";
+import trainingPack from "./data/training-pack.json";
 
 export type HintLevel = "none" | "light" | "standard" | "full";
 
